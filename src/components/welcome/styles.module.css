@@ -1,0 +1,217 @@
+@font-face {
+	font-family: Montserrat Alternates;
+	src: url("./../../app/fonts/MontserratAlternates-Medium.ttf");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Bold;
+	src: url("./../../app/fonts/MontserratAlternates-Bold.ttf");
+}
+
+.container {
+	height: 100vh;
+	background-image: url("./../../../public/welcome_background.png");
+	background-size: cover;
+	filter: contrast(1.1);
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+}
+
+.titles {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10vh;
+	padding-top: 2vw;
+}
+
+.title {
+	font-family: Montserrat Alternates Bold;
+    color: #ffffff;
+}
+.subtitle {
+	font-family: Montserrat Alternates;
+    color: #FFD014;
+}
+
+
+.button1,
+.button2,
+.button3 {
+	width: 140px;
+	background-color: #000;
+    border-radius: 50px;
+    font-family: Montserrat Alternates Bold;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;	
+    cursor: pointer;
+	transition: all .3s;
+}
+
+.button1 {
+	border: 4px #FFD014 solid;
+}
+
+.button2 {
+    border: 4px #ffffff solid;
+}
+
+.button3 {
+    border: 4px #266665 solid;
+}
+
+/* .button1:hover,
+.button2:hover {
+	border: 4px #FFD014 solid;
+    background-color: #FFD014;
+    color: #000;
+} */
+
+.button1:hover {
+	border: 4px #FFD014 solid;
+    background-color: #FFD014;
+    color: #000;
+}
+.button2:hover {
+	border: 4px #fff solid;
+    background-color: #fff;
+    color: #000;
+}
+
+.button3:hover {
+	border: 4px #266665 solid;
+    background-color: #266665;
+    color: #000;
+}
+@media screen and (min-width: 1024px) {
+	.container {
+		background-position: 0% -320px;
+	}
+	.titles {
+        padding-left: 7vw;
+		width: 40vw;
+    }
+	.title {
+		font-size: 55px;
+	}
+	.subtitle {
+		font-size: 54px;
+	}
+	.buttonContainer  {
+		padding-left: 7vw;
+		width: 80vw;
+		display: flex;
+		gap: 3vw;
+	}
+	.button1,
+	.button2,
+	.button3 {
+		width: 140px;
+		font-size: 14px;
+		color: #ffffff;
+		padding: 15px 32px;
+	}
+
+}
+
+
+@media screen and (max-width: 1024px) {
+	.container {
+		background-position: 0% -320px;
+	}
+	.titles {
+        padding-left: 7vw;
+		width: 45vw;
+    }
+	.title {
+		font-size: 55px;
+	}
+	.subtitle {
+		font-size: 54px;
+	}
+	.buttonContainer  {
+		padding-left: 7vw;
+		width: 80vw;
+		display: flex;
+		gap: 3vw;
+	}
+	.button1,
+	.button2,
+	.button3 {
+		width: 140px;
+		font-size: 14px;
+		color: #ffffff;
+		padding: 15px 32px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		background-position: 0% -320px;
+	}
+	.titles {
+        padding-left: 7vw;
+		width: 50vw;
+    }
+	.title {
+		font-size: 45px;
+	}
+	.subtitle {
+		font-size: 44px;
+	}
+	.buttonContainer  {
+		padding-left: 7vw;
+		width: 80vw;
+		display: flex;
+		gap: 3vw;
+		flex-wrap: wrap;
+	}
+	.button1,
+	.button2,
+	.button3 {
+		width: 80px;
+		font-size: 12px;
+		color: #ffffff;
+		padding: 10px 32px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.container {
+		background-position: 0% -320px;
+		width: 100vw;
+	}
+	.titles {
+        padding-left: 12vw;
+		width: 60vw;
+		/* padding-top: 18vw; */
+    }
+	.title {
+		font-size: 38px;
+	}
+	.subtitle {
+		font-size: 34px;
+	}
+	.buttonContainer  {
+		padding-left: 12vw;
+		width: 80vw;
+		display: flex;
+		gap: 3vw;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	.button1,
+	.button2,
+	.button3 {
+		width: 80px;
+		font-size: 12px;
+		color: #ffffff;
+		padding: 12px 32px;
+	}
+}
