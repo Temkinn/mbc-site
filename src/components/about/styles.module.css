@@ -145,16 +145,17 @@
 
 	.title {
         font-size: 34px;
-		padding-top: 100px;
-		margin-bottom: 72px;
+		padding-top: 50px;
+		margin-bottom: 36px;
     }
 	.paragraph {
-		font-size: 20px;
+		font-size: 24px;
 		line-height: 1.55;
 		margin-bottom: 30px;
 	}
 
 	.bread {
+		display: none;
 		z-index: -1;
 		position: absolute;
 		left: -4px;
@@ -165,6 +166,70 @@
 		z-index: -1;
 		position: absolute;
 		right: 0px;
-		top: calc(100vh + 950px)
+		top: calc(100vh + 774px)
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.text {
+		width: 340px;
+	}
+
+	.title {
+        font-size: 34px;
+		padding-top: 50px;
+		margin-bottom: 36px;
+    }
+	.paragraph {
+		font-size: 24px;
+		line-height: 1.55;
+		margin-bottom: 30px;
+	}
+
+	.bread {
+		display: none;
+		z-index: -1;
+		position: absolute;
+		left: -4px;
+		top: calc(100vh + 61px)
+	}
+
+	.croissant {
+		z-index: -1;
+		position: absolute;
+		right: 0px;
+		top: calc(100vh + 774px)
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.text {
+		width: 300px;
+	}
+
+	.title {
+        font-size: 32px;
+		padding-top: 50px;
+		margin-bottom: 36px;
+    }
+	.paragraph {
+		font-size: 20px;
+		line-height: 1.55;
+		margin-bottom: 30px;
+	}
+
+	.bread {
+		display: none;
+		z-index: -1;
+		position: absolute;
+		left: -4px;
+		top: calc(100vh + 61px)
+	}
+
+	.croissant {
+		z-index: -1;
+		position: absolute;
+		right: -20px;
+		top: calc(100vh + 654px)
 	}
 }

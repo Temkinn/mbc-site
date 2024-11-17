@@ -10,7 +10,6 @@
 
 .container {
 	height: 100vh;
-	background-image: url("./../../../public/welcome_background.png");
 	background-size: cover;
 	filter: contrast(1.1);
 	display: flex;
@@ -89,11 +88,12 @@
 }
 @media screen and (min-width: 1024px) {
 	.container {
-		background-position: 0% -320px;
+		background-position: 0 -320px;
+		background-image: url("./../../../public/welcome_background.png");
 	}
 	.titles {
-        padding-left: 7vw;
-		width: 40vw;
+        padding-left: 10vw;
+		width: 430px;
     }
 	.title {
 		font-size: 55px;
@@ -102,10 +102,10 @@
 		font-size: 54px;
 	}
 	.buttonContainer  {
-		padding-left: 7vw;
+		padding-left: 10vw;
 		width: 80vw;
 		display: flex;
-		gap: 3vw;
+		gap: 35px;
 	}
 	.button1,
 	.button2,
@@ -120,7 +120,8 @@
 
 @media screen and (max-width: 1024px) {
 	.container {
-		background-position: 0% -320px;
+		background-position: 0 -320px;
+		background-image: url("./../../../public/welcome_background.png");
 	}
 	.titles {
         padding-left: 7vw;
@@ -151,7 +152,8 @@
 
 @media screen and (max-width: 768px) {
 	.container {
-		background-position: 0% -320px;
+		background-position: 0 -320px;
+		background-image: url("./../../../public/welcome_background.png");
 	}
 	.titles {
         padding-left: 7vw;
@@ -182,11 +184,47 @@
 
 @media screen and (max-width: 425px) {
 	.container {
-		background-position: 0% -320px;
+		background-position: 0 0px;
+		width: 100vw;
+		background-image: url("./../../../public/welcome2_background.png");
+	}
+	.titles {
+        padding-left: 50px;
+		width: 70vw;
+    }
+	.title {
+		font-size: 38px;
+	}
+	.subtitle {
+		font-size: 34px;
+	}
+	.buttonContainer  {
+		padding-left: 50px;
+		width: 320px;
+		display: flex;
+		gap: 10px;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	.button1,
+	.button2,
+	.button3 {
+		width: 80px;
+		font-size: 12px;
+		color: #ffffff;
+		padding: 12px 32px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.container {
+		background-position: 0 0px;
+		background-image: url("./../../../public/welcome2_background.png");
 		width: 100vw;
 	}
 	.titles {
-        padding-left: 8vw;
+        padding-left: 30px;
 		width: 70vw;
 		/* padding-top: 18vw; */
     }
@@ -197,10 +235,10 @@
 		font-size: 34px;
 	}
 	.buttonContainer  {
-		padding-left: 8vw;
-		width: 80vw;
+		padding-left: 30px;
+		width: 320px;
 		display: flex;
-		gap: 3vw;
+		gap: 10px;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
@@ -210,6 +248,43 @@
 	.button3 {
 		width: 80px;
 		font-size: 12px;
+		color: #ffffff;
+		padding: 12px 32px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+	.container {
+		background-position: 0 0px;
+		background-image: url("./../../../public/welcome2_background.png");
+		width: 100vw;
+	}
+	.titles {
+        padding-left: 8vw;
+		width: 70vw;
+		/* padding-top: 18vw; */
+    }
+	.title {
+		font-size: 34px;
+	}
+	.subtitle {
+		font-size: 30px;
+	}
+	.buttonContainer  {
+		padding-left: 8vw;
+		width: 90vw;
+		display: flex;
+		gap: 3vw;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	.button1,
+	.button2,
+	.button3 {
+		width: 65px;
+		font-size: 10px;
 		color: #ffffff;
 		padding: 12px 32px;
 	}

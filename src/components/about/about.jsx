@@ -17,8 +17,8 @@ export default function About(){
                 src={croissant}
                 alt="Croissant"
                 className={styles.croissant}
-                width={180}
-                height={180}/>
+                width={170}
+                height={170}/>
 
             <div className={styles.text}>
 
