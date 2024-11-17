@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	background-image: url('./../../public/white_background.png');
+}
 @font-face {
 	font-family: Montserrat Alternates;
 	src: url("/src/app/fonts/MontserratAlternates-Medium.ttf");

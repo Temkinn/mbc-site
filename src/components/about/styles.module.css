@@ -1,0 +1,170 @@
+@font-face {
+	font-family: Montserrat Alternates;
+	src: url("./../../app/fonts/MontserratAlternates-Medium.ttf");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Bold;
+	src: url("./../../app/fonts/MontserratAlternates-Bold.ttf");
+}
+
+@font-face {
+	font-family: Montserrat Alternates ExtraLight;
+	src: url("./../../app/fonts/MontserratAlternates-ExtraLight.ttf");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Light;
+	src: url("./../../app/fonts/MontserratAlternates-Light.ttf");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Regular;
+	src: url("./../../app/fonts/MontserratAlternates-Regular.ttf");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Thin;
+	src: url("./../../app/fonts/MontserratAlternates-Thin.ttf");
+}
+
+.container{
+	height: 300vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	font-family: Montserrat Alternates ExtraLight;
+	text-align: center;
+}
+
+.paragraph {
+	font-family: Montserrat Alternates Regular;
+}
+
+
+@media screen and (min-width: 1024px) {
+	.text {
+		width: 750px;
+	}
+
+	.title {
+        font-size: 55px;
+		padding-top: 100px;
+		margin-bottom: 72px;
+    }
+	.paragraph {
+		font-size: 20px;
+		line-height: 1.55;
+		margin-bottom: 30px;
+	}
+
+	.bread {
+		z-index: -1;
+		position: absolute;
+		left: 10px;
+		top: calc(100vh + 200px)
+	}
+
+	.croissant {
+		z-index: -1;
+		position: absolute;
+		right: 20px;
+		top: calc(100vh + 550px)
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.text {
+		width: 750px;
+	}
+
+	.title {
+        font-size: 55px;
+		padding-top: 100px;
+		margin-bottom: 72px;
+    }
+	.paragraph {
+		font-size: 20px;
+		line-height: 1.55;
+		margin-bottom: 30px;
+	}
+
+	.bread {
+		z-index: -1;
+		position: absolute;
+		left: 10px;
+		top: calc(100vh + 200px)
+	}
+
+	.croissant {
+		z-index: -1;
+		position: absolute;
+		right: 20px;
+		top: calc(100vh + 550px)
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.text {
+		width: 550px;
+	}
+
+	.title {
+        font-size: 55px;
+		padding-top: 100px;
+		margin-bottom: 72px;
+    }
+	.paragraph {
+		font-size: 20px;
+		line-height: 1.55;
+		margin-bottom: 30px;
+	}
+
+	.bread {
+		z-index: -1;
+		position: absolute;
+		left: 10px;
+		top: calc(100vh + 50px)
+	}
+
+	.croissant {
+		z-index: -1;
+		position: absolute;
+		right: 20px;
+		top: calc(100vh + 550px)
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.text {
+		width: 340px;
+	}
+
+	.title {
+        font-size: 34px;
+		padding-top: 100px;
+		margin-bottom: 72px;
+    }
+	.paragraph {
+		font-size: 20px;
+		line-height: 1.55;
+		margin-bottom: 30px;
+	}
+
+	.bread {
+		z-index: -1;
+		position: absolute;
+		left: -4px;
+		top: calc(100vh + 61px)
+	}
+
+	.croissant {
+		z-index: -1;
+		position: absolute;
+		right: 0px;
+		top: calc(100vh + 950px)
+	}
+}

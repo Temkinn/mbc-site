@@ -2,7 +2,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { useState, useEffect } from 'react'
-import Welcome from '../components/welcome/welcome'
+
+import Parallax from "@/components/parallax/parallax";
+import Welcome from '@/components/welcome/welcome'
+import About from "@/components/about/about"
+
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false)
@@ -12,8 +16,9 @@ export default function Home() {
   }, [])
   return (
     <>
+      <Parallax />
       <Welcome />
-      awda
+      <About />
     </>
   );
 }

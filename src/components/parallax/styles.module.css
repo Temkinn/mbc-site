@@ -1,0 +1,7 @@
+.parallax{
+	height: 100vh;
+	width: 98vw;
+	background-image: url("./../../../public/white_background.png");
+	position: fixed;
+	z-index: -1;
+}

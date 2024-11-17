@@ -118,7 +118,6 @@
 
 }
 
-
 @media screen and (max-width: 1024px) {
 	.container {
 		background-position: 0% -320px;
@@ -187,8 +186,8 @@
 		width: 100vw;
 	}
 	.titles {
-        padding-left: 12vw;
-		width: 60vw;
+        padding-left: 8vw;
+		width: 70vw;
 		/* padding-top: 18vw; */
     }
 	.title {
@@ -198,7 +197,7 @@
 		font-size: 34px;
 	}
 	.buttonContainer  {
-		padding-left: 12vw;
+		padding-left: 8vw;
 		width: 80vw;
 		display: flex;
 		gap: 3vw;
