@@ -261,7 +261,7 @@
 		width: 100vw;
 	}
 	.titles {
-        padding-left: 8vw;
+        padding-left: 20px;
 		width: 70vw;
 		/* padding-top: 18vw; */
     }
@@ -272,7 +272,7 @@
 		font-size: 30px;
 	}
 	.buttonContainer  {
-		padding-left: 8vw;
+		padding-left: 20px;
 		width: 90vw;
 		display: flex;
 		gap: 3vw;
