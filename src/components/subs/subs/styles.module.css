@@ -1,0 +1,40 @@
+.container {
+	width: 100vw;
+	min-height: 100vh;
+	background-image: url('./../../../../public/yellow_background.png');
+	transition: all .5s ease-in;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+
+.subscribes {
+	padding-top: 60px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-wrap: wrap;
+	gap: 50px;
+	margin-bottom: 80px;
+}
+
+.button {
+	width: 140px;
+	background-color: #000;
+	border: 4px #266665 solid;
+    border-radius: 50px;
+    font-family: Montserrat Alternates Bold;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;	
+    cursor: pointer;
+	transition: all .3s;
+	margin-bottom: 75px;
+}
+
+.button:hover {
+	border: 4px #266665 solid;
+    background-color: #266665;
+}

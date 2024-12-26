@@ -1,0 +1,48 @@
+.container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider {
+	position: relative;
+	background-color: #fff;
+	width: 100vw;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	transition: all .5s linear;
+	right: -40vw;
+}
+
+#element {
+	width: 220px;
+    height: 415px;
+    background-color: black;
+	border-radius: 40px;
+}
+
+.right {
+	z-index: 5;
+	position:absolute;
+	right: 10px;
+	width: 52px;
+	aspect-ratio: 1 / 1;
+	border-radius: 50%;
+	border: 1px solid #000;
+	background-color: #ff6722;
+}
+
+.left {
+	z-index: 5;
+	position:absolute;
+	left: 10px;
+	width: 52px;
+	aspect-ratio: 1 / 1;
+	border-radius: 50%;
+	border: 1px solid #000;
+	background-color: #ff6722;
+}

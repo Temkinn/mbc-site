@@ -15,9 +15,9 @@ export default function Welcome() {
 				<h2 className={styles.subtitle}>Кофейня на каждый день</h2>
 			</div>
 			<div className={styles.buttonContainer}>
-				<a href="#" className={styles.button1}>Наше меню</a>
-				<a href="#" className={styles.button2}>Где мы?</a>
-				<a href="#" className={styles.button3}>Подписка</a>
+				<a href="#menu" className={styles.button1}>Наше меню</a>
+				<a href="#adress" className={styles.button2}>Где мы?</a>
+				<a href="#subscribe" className={styles.button3}>Подписка</a>
 			</div>
         </div>
     )
