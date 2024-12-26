@@ -15,7 +15,6 @@
 }
 
 .container {
-	height: 125vh;
 	display: flex;
 	flex-direction: column;
 	position: relative;
@@ -130,6 +129,9 @@
 }
 
 @media screen and (width >= 1024px) {
+	.container {
+		height: 125vh;
+	}
 	.reason1 {
 		height: 150px; width: 450px;
 		right: 45%;
@@ -140,11 +142,11 @@
 	}
 	.reason3 {
 		height: 150px; width: 450px;
-		right: 35%;
+		right: 45%;
 	}
 	.reason4 {
 		height: 150px; width: 450px;
-		left: 35%;
+		left: 45%;
 	}
 	.title {
 		font-size: 25px;
@@ -156,6 +158,9 @@
 }
 
 @media screen and (width < 1024px) {
+	.container {
+		height: 125vh;
+	}
 	.reason1 {
 		height: 150px; width: 450px;
 		right: 35%;
@@ -182,21 +187,28 @@
 }
 
 @media screen and (width < 768px) {
+	.container {
+		height: calc(125vh - 300px);
+	}
 	.reason1 {
 		height: 80px; width: 250px;
 		right: 35%;
+		
 	}
 	.reason2 {
 		height: 80px; width: 250px;
 		left: 35%;
+		top: calc(80px + 50px);
 	}
 	.reason3 {
 		height: 80px; width: 250px;
 		right: 35%;
+		top: calc(80px + 50px + 80px + 50px);
 	}
 	.reason4 {
 		height: 80px; width: 250px;
 		left: 35%;
+		top: calc(80px + 50px + 80px + 50px + 80px + 50px);
 	}
 	.title {
 		font-size: 14px;
@@ -209,23 +221,16 @@
 
 @media screen and (width < 425px) {
 	.reason1 {
-		height: 80px; width: 250px;
 		right: 15%;
 	}
 	.reason2 {
-		height: 80px; width: 250px;
 		left: 15%;
 	}
 	.reason3 {
-		height: 80px; width: 250px;
 		right: 15%;
 	}
 	.reason4 {
-		height: 80px; width: 250px;
 		left: 15%;
 	}
 }
 
-@media screen and (width < 375px) {
-
-}
