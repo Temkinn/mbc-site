@@ -228,7 +228,7 @@
 	.croissant {
 		z-index: -1;
 		position: absolute;
-		right: -20px;
+		right: 0px;
 		top: calc(100vh + 654px)
 	}
 }

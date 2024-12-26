@@ -4,7 +4,6 @@ export default function SubsChoice(){
 
 function choose(){
 	const next = document.getElementById('allSubscribes')
-	console.log(next);
 	next.style.display = 'flex'
 }
 
