@@ -1,0 +1,62 @@
+@font-face {
+	font-family: Montserrat Alternates;
+	src: url("./../../../app/fonts/MontserratAlternates-Medium.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Bold;
+	src: url("./../../../app/fonts/MontserratAlternates-Bold.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates semibold;
+	src: url("./../../../app/fonts/MontserratAlternates-SemiBold.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates ExtraLight;
+	src: url("./../../../app/fonts/MontserratAlternates-ExtraLight.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Light;
+	src: url("./../../../app/fonts/MontserratAlternates-Light.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Regular;
+	src: url("./../../../app/fonts/MontserratAlternates-Regular.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Thin;
+	src: url("./../../../app/fonts/MontserratAlternates-Thin.woff2");
+}
+
+.container {
+	width: 400px; height: 160px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.photo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60%; width: 130px;
+	margin-right: 20px;
+	position: relative;
+}
+
+.name {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Montserrat Alternates;
+    font-size: 20px;
+    color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	/* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); */
+}

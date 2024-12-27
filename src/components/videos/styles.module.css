@@ -1,0 +1,48 @@
+@font-face {
+	font-family: Montserrat Alternates;
+	src: url("./../../app/fonts/MontserratAlternates-Medium.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Bold;
+	src: url("./../../app/fonts/MontserratAlternates-Bold.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates ExtraLight;
+	src: url("./../../app/fonts/MontserratAlternates-ExtraLight.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Light;
+	src: url("./../../app/fonts/MontserratAlternates-Light.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Regular;
+	src: url("./../../app/fonts/MontserratAlternates-Regular.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Thin;
+	src: url("./../../app/fonts/MontserratAlternates-Thin.woff2");
+}
+
+.container {
+	min-height: 100vh;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	gap: 100px;
+	background-image: url("./../../../public/welcome2_background.png");
+}
+
+.video1 {
+	border-radius: 50px;
+	border: 5px #266665 solid;
+}
+
+.video2 {
+	border-radius: 50px;
+	border: 5px #DFE4F0 solid;
+}

@@ -1,0 +1,56 @@
+@font-face {
+	font-family: Montserrat Alternates;
+	src: url("./../../app/fonts/MontserratAlternates-Medium.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Bold;
+	src: url("./../../app/fonts/MontserratAlternates-Bold.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates ExtraLight;
+	src: url("./../../app/fonts/MontserratAlternates-ExtraLight.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Light;
+	src: url("./../../app/fonts/MontserratAlternates-Light.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Regular;
+	src: url("./../../app/fonts/MontserratAlternates-Regular.woff2");
+}
+
+@font-face {
+	font-family: Montserrat Alternates Thin;
+	src: url("./../../app/fonts/MontserratAlternates-Thin.woff2");
+}
+
+.container {
+	min-height: 100vh;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	justify-content: center;
+}
+
+.title {
+	color: #000;
+    font-family: Montserrat Alternates Bold;
+    font-size: 38px;
+	margin-bottom: 40px;
+	padding-top: 60px;
+}
+
+
+.companies {
+	width: 96%;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	gap: 80px;
+	margin-bottom: 60px;
+}

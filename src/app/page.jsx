@@ -12,6 +12,11 @@ import SubsWhy from "@/components/subs/why/why";
 import SubsChoice from "@/components/subs/choice/choice";
 import Subs from "@/components/subs/subs/subs";
 
+import Barista from "@/components/barista/barista";
+import Videos from "@/components/videos/videos";
+import Partners from "@/components/partners/partners";
+import Footer from "@/components/footer/footer";
+
 
 export default function Home() {
   // const [isClient, setIsClient] = useState(false)
@@ -31,6 +36,11 @@ export default function Home() {
       <SubsWhy />
       <SubsChoice />
       <Subs />
+
+      <Barista />
+      <Videos />
+      <Partners />
+      <Footer />
     </div>
   );
 }

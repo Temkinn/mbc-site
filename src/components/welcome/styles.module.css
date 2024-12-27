@@ -121,7 +121,6 @@
 		background-image: url("./../../../public/welcome_background.png");
 	}
 	.titles {
-        padding-left: 7vw;
 		width: 45vw;
     }
 	.title {
@@ -131,7 +130,6 @@
 		font-size: 54px;
 	}
 	.buttonContainer  {
-		padding-left: 7vw;
 		width: 80vw;
 		display: flex;
 		gap: 3vw;
@@ -152,7 +150,6 @@
 		background-image: url("./../../../public/welcome_background.png");
 	}
 	.titles {
-        padding-left: 7vw;
 		width: 50vw;
     }
 	.title {
@@ -162,7 +159,6 @@
 		font-size: 44px;
 	}
 	.buttonContainer  {
-		padding-left: 7vw;
 		width: 80vw;
 		display: flex;
 		gap: 3vw;
@@ -188,7 +184,6 @@
 		justify-content: center;
 	}
 	.titles {
-        /* padding-left: 50px; */
 		width: 80vw;
     }
 	.title {
@@ -199,7 +194,6 @@
 		font-size: 34px;
 	}
 	.buttonContainer  {
-		/* padding-left: 50px; */
 		width: 320px;
 		display: flex;
 		gap: 10px;
@@ -219,7 +213,6 @@
 
 @media screen and (max-width: 375px) {
 	.titles {
-        /* padding-left: 30px; */
 		width: 80vw;
 		/* padding-top: 18vw; */
     }
@@ -230,7 +223,6 @@
 		font-size: 34px;
 	}
 	.buttonContainer  {
-		padding-left: 30px;
 		width: 320px;
 		display: flex;
 		gap: 10px;
@@ -255,7 +247,6 @@
 		width: 100vw;
 	}
 	.titles {
-        /* padding-left: 20px; */
 		width: 90vw;
 		/* padding-top: 18vw; */
     }
@@ -266,7 +257,6 @@
 		font-size: 30px;
 	}
 	.buttonContainer  {
-		/* padding-left: 20px; */
 		width: 90vw;
 		display: flex;
 		gap: 3vw;
