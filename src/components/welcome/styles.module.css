@@ -1,12 +1,14 @@
 @font-face {
 	font-family: Montserrat Alternates;
-	src: url("./../../app/fonts/MontserratAlternates-Medium.ttf");
+	src: url("./../../app/fonts/MontserratAlternates-Medium.woff2");
 }
 
 @font-face {
 	font-family: Montserrat Alternates Bold;
-	src: url("./../../app/fonts/MontserratAlternates-Bold.ttf");
+	src: url("./../../app/fonts/MontserratAlternates-Bold.woff2");
 }
+
+
 
 .container {
 	height: 100vh;
@@ -180,19 +182,24 @@
 	.container {
 		width: 100vw;
 		background-image: url("./../../../public/welcome2_background.png");
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 	.titles {
-        padding-left: 50px;
-		width: 70vw;
+        /* padding-left: 50px; */
+		width: 80vw;
     }
 	.title {
+		width: 100%;
 		font-size: 38px;
 	}
 	.subtitle {
 		font-size: 34px;
 	}
 	.buttonContainer  {
-		padding-left: 50px;
+		/* padding-left: 50px; */
 		width: 320px;
 		display: flex;
 		gap: 10px;
@@ -211,13 +218,9 @@
 }
 
 @media screen and (max-width: 375px) {
-	.container {
-		background-image: url("./../../../public/welcome2_background.png");
-		width: 100vw;
-	}
 	.titles {
-        padding-left: 30px;
-		width: 70vw;
+        /* padding-left: 30px; */
+		width: 80vw;
 		/* padding-top: 18vw; */
     }
 	.title {
@@ -252,8 +255,8 @@
 		width: 100vw;
 	}
 	.titles {
-        padding-left: 20px;
-		width: 70vw;
+        /* padding-left: 20px; */
+		width: 90vw;
 		/* padding-top: 18vw; */
     }
 	.title {
@@ -263,7 +266,7 @@
 		font-size: 30px;
 	}
 	.buttonContainer  {
-		padding-left: 20px;
+		/* padding-left: 20px; */
 		width: 90vw;
 		display: flex;
 		gap: 3vw;
