@@ -27,6 +27,14 @@
 .front {
 	height: 100%; aspect-ratio: 1/1;
 	position: relative;
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	visibility: visible;
 }
 
 .photo {
@@ -43,6 +51,7 @@
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
+	visibility: visible;
 }
 
 .photo:hover {
