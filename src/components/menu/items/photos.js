@@ -11,8 +11,8 @@ import raf_vanila from "./photos/milk/raf_vanila.jpg"
 import lolipop from "./photos/milk/lolipop.jpg"
 import halva_latte from "./photos/milk/halva_latte.jpg"
 import caramel_latte from './photos/milk/caramel_latte.jpg'
-import kapuchino from './photos/milk/kapuchino.jpg'
-import tropic from './photos/milk/tropic.jpg'
+import kap from './photos/milk/kap.jpg'
+import tropic_flat from './photos/milk/tropic_flat.jpg'
 
 // // import orange from './photos/other/orange.jpg'
 // import rasp_cocao from "./photos/other/rasp_cocao.jpg"
@@ -41,8 +41,8 @@ const photos = {
     lolipop: lolipop,
     halva_latte: halva_latte,
     caramel_latte: caramel_latte,
-    kapuchino: kapuchino,
-    tropic: tropic,
+    kap: kap,
+    tropic_flat: tropic_flat,
   },
 //   other: {
 //     // orange: orange,
