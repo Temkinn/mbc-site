@@ -28,20 +28,20 @@ export default function Subs(){
 			<div className={styles.subscribes}>
 				<Subscribe1 title="Кофе в зернах"
 					white={`ФИЛЬТР ПОДПИСКА ${monthes[month]}`}
-					price="Мало"
-					old="Много"/>
+					price="56 BYN"
+					old="70 BYN"/>
 				<Subscribe2 title="Кофе в зернах"
 					white={`МИКС ПОДПИСКА ${monthes[month]}`}
-					price="Мало"
-					old="Много"/>
+					price="54 BYN"
+					old="68 BYN"/>
 				<Subscribe3 title="Кофе в зернах"
 					white={`ЭСПРЕССО ${monthes[month]}`}
-					price="Мало"
-					old="Много"/>
+					price="52 BYN"
+					old=" 66 BYN"/>
 				<Subscribe4 title="Кофе в дрип пакетах"
 					white={`ДРИП ПОДПИСКА ${monthes[month]}`}
-					price="Мало"
-					old="Много"/>
+					price="96 BYN"
+					old="120 BYN"/>
 			</div>
 			{/* <a href="#subscribe" className={styles.button}>Подписаться</a> */}
         </div>

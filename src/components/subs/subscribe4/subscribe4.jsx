@@ -27,7 +27,7 @@ export default function Subscribe4({white, title, price, old}){
 				</div>
 			</div>
 			<div className={styles.grams}>
-				<div className={styles.left2}>000 шт.</div>
+				<div className={styles.left2}>30 шт.</div>
 			</div>
 			<div className={styles.facts}>
 				<div className={styles.fact}>
