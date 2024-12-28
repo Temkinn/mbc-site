@@ -11,7 +11,7 @@ export default function Position({name, photo, price, kpfc, description, amount}
 			<div className={styles.desc}>
 				<div className={styles.descInner}>
 					<div className={styles.description}>{description}</div>
-					<div className={styles.kpfc}>{kpfc}</div>
+					<div className={styles.kpfc}><p>{kpfc}</p></div>
 				</div>
 			</div>
 		  </div>

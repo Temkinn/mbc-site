@@ -40,6 +40,11 @@ export default function Menu() {
               завтраки
             </a>
           </div>
+          <div className={styles.linkContainer}>
+            <a href="#sweet" className={styles.link}>
+              сладкое
+            </a>
+          </div>
         </div>
       </div>
       <div className={styles.menu}>
@@ -136,6 +141,27 @@ export default function Menu() {
           </div>
           <div className={styles.items}>
             {items.breakfast.map((item) => {
+              return (
+                <Position
+                  key={item.name}
+                  name={item.name}
+                  photo={item.photo}
+                  amount={item.g}
+                  price={item.price}
+                  description={item.description}
+                  kpfc={item.kpfc}
+                />
+              );
+            })}
+          </div>
+        </div>
+
+        <div className={styles.unit}>
+          <div className={styles.unitTitle} id="sweet">
+            Сладкое
+          </div>
+          <div className={styles.items}>
+            {items.sweet.map((item) => {
               return (
                 <Position
                   key={item.name}
