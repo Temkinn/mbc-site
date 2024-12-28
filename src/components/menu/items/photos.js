@@ -9,8 +9,8 @@ import latte from "./photos/milk/latte.jpg"
 import raf_rasp from "./photos/milk/raf_rasp.jpg"
 import raf_vanila from "./photos/milk/raf_vanila.jpg"
 import lolipop from "./photos/milk/lolipop.jpg"
-import halva from './photos/milk/halva.jpg'
-import caramel from './photos/milk/caramel.jpg'
+import halva_latte from "./photos/milk/halva_latte.jpg"
+import caramel_latte from './photos/milk/caramel_latte.jpg'
 import kapuchino from './photos/milk/kapuchino.jpg'
 import tropic from './photos/milk/tropic.jpg'
 
@@ -39,8 +39,8 @@ const photos = {
     raf_rasp: raf_rasp,
     raf_vanila: raf_vanila,
     lolipop: lolipop,
-    halva: halva,
-    caramel: caramel,
+    halva_latte: halva_latte,
+    caramel_latte: caramel_latte,
     kapuchino: kapuchino,
     tropic: tropic,
   },
