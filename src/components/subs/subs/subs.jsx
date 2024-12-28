@@ -43,7 +43,7 @@ export default function Subs(){
 					price="96 BYN"
 					old="120 BYN"/>
 			</div>
-			{/* <a href="#subscribe" className={styles.button}>Подписаться</a> */}
+			<a href="https://docs.google.com/forms/d/1Gx2PhXDeb8MmYds0EboKcs9T1BgHGB9QDdWEZ6sUdvg/edit" className={styles.button}>Подписаться</a>
         </div>
 	)
 }

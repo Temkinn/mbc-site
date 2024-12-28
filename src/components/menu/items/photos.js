@@ -4,15 +4,15 @@ import aeropress from "./photos/black/aeropress.jpg"
 import cherry from "./photos/black/cherry.jpg"
 import espresso from './photos/black/espresso.jpg'
 
-// import flat_white from "./photos/milk/flat_white.jpg"
-// import latte from "./photos/milk/latte.jpg"
-// import raf_rasp from "./photos/milk/raf_rasp.jpg"
-// import raf_vanila from "./photos/milk/raf_vanila.jpg"
-// import lolipop from "./photos/milk/lolipop.jpg"
-// import halva from './photos/milk/halva.jpg'
-// // import caramel from './photos/milk/caramel.jpg'
-// import kapuchino from './photos/milk/kapuchino.jpg'
-// import tropic from './photos/milk/tropic.jpg'
+import flat_white from "./photos/milk/flat_white.jpg"
+import latte from "./photos/milk/latte.jpg"
+import raf_rasp from "./photos/milk/raf_rasp.jpg"
+import raf_vanila from "./photos/milk/raf_vanila.jpg"
+import lolipop from "./photos/milk/lolipop.jpg"
+import halva from './photos/milk/halva.jpg'
+import caramel from './photos/milk/caramel.jpg'
+import kapuchino from './photos/milk/kapuchino.jpg'
+import tropic from './photos/milk/tropic.jpg'
 
 // // import orange from './photos/other/orange.jpg'
 // import rasp_cocao from "./photos/other/rasp_cocao.jpg"
@@ -33,17 +33,17 @@ const photos = {
     cherry: cherry,
     espresso: espresso,
   },
-//   milk : {
-// 	  flat_white: flat_white,
-// 	  latte: latte,
-//     raf_rasp: raf_rasp,
-//     raf_vanila: raf_vanila,
-//     lolipop: lolipop,
-//     halva: halva,
-//     // caramel: caramel,
-//     kapuchino: kapuchino,
-//     tropic: tropic,
-//   },
+  milk : {
+	  flat_white: flat_white,
+	  latte: latte,
+    raf_rasp: raf_rasp,
+    raf_vanila: raf_vanila,
+    lolipop: lolipop,
+    halva: halva,
+    caramel: caramel,
+    kapuchino: kapuchino,
+    tropic: tropic,
+  },
 //   other: {
 //     // orange: orange,
 //     rasp_cocao: rasp_cocao,
