@@ -5,7 +5,7 @@ import Parallax from "@/components/parallax/parallax";
 import Welcome from '@/components/welcome/welcome'
 import About from "@/components/about/about"
 import Slider from "@/components/slider/slider";
-import Menu from "@/components/menu/menu";
+// import Menu from "@/components/menu/menu";
 
 import SubsIntro from "@/components/subs/intro/intro";
 import SubsWhy from "@/components/subs/why/why";
