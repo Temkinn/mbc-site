@@ -141,7 +141,7 @@ const items = {
 			g: "300 мл",
 			price: "9",
             description: "Тот самый «Bean to Bar» какао, малиново-шоколадный. Уникалочка-в нашем исполнении",
-            photo: photos.other.rasp_cocao,
+            photo: photos.other.raspb_cocao,
             kpfc: "КБЖУ: 224.3/7.1/13.2/14.9"
 		},
 		{
