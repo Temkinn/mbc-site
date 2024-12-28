@@ -38,8 +38,6 @@
 }
 
 .inner {
-	width: 60%;
-	height: 70%;
 	background-color: #fff;
 	border-radius: 50px;
 	display: flex;
@@ -51,15 +49,16 @@
 }
 
 .title {
-    font-size: 50px;
 	font-family: Montserrat Alternates bold;
     margin-bottom: 20px;
+	text-align: center;
+	max-width: 80%;
 }
 
 .line {
-	font-size: 20px;
 	margin-bottom: 7px;
 	text-decoration: none;
+	text-align: center;
 }
 
 .line a {
@@ -72,4 +71,69 @@
 	display: flex;
 	gap: 20px;
 	padding-top: 50px;
+}
+
+@media screen and (width >= 1024px) {
+	.inner {
+		width: 60%;
+		height: 70%;
+	}
+	.title {
+		font-size: 50px;
+	}
+	.line {
+		font-size: 20px;
+	}
+}
+
+@media screen and (width < 1024px) {
+	.inner {
+		width: 60%;
+		height: 70%;
+	}
+	.title {
+		font-size: 50px;
+	}
+	.line {
+		font-size: 20px;
+	}
+}
+
+@media screen and (width <= 425px) {
+	.inner {
+		width: 80%;
+		height: 60%;
+	}
+	.title {
+		font-size: 32px;
+	}
+	.line {
+		font-size: 18px;
+	}
+}
+
+@media screen and (width <= 375px) {
+	.inner {
+		width: 80%;
+		height: 60%;
+	}
+	.title {
+		font-size: 32px;
+	}
+	.line {
+		font-size: 16px;
+	}
+}
+
+@media screen and (width <= 320px) {
+	.inner {
+		width: 80%;
+		height: 50%;
+	}
+	.title {
+		font-size: 32px;
+	}
+	.line {
+		font-size: 14px;
+	}
 }

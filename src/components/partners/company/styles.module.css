@@ -44,7 +44,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 60%; width: 130px;
+	height: 70%;
 	margin-right: 20px;
 	position: relative;
 }
@@ -54,9 +54,50 @@
 	align-items: center;
 	justify-content: center;
 	font-family: Montserrat Alternates;
-    font-size: 20px;
     color: #000;
 	text-transform: uppercase;
 	text-decoration: none;
-	/* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); */
+	width:min-content;
+}
+
+@media screen and (width >= 1024px) {
+	.container {
+		width: max-content; height: 160px;
+	}
+	.name {
+		font-size: 20px;
+	}
+}
+
+@media screen and (width < 1024px) {
+	.container {
+		width: max-content; height: 160px;
+	}
+	.name {
+		font-size: 20px;
+	}
+}
+
+@media screen and (width <= 425px) {
+	.container {
+		width: max-content; height: 140px;
+	}
+	.name {
+		font-size: 16px;
+	}
+}
+
+@media screen and (width <= 375px) {
+	.container {
+		width: max-content; height: 120px;
+	}
+}
+
+@media screen and (width <= 375px) {
+	.container {
+		width: max-content; height: 110px;
+	}
+	.name {
+		font-size: 14px;
+	}
 }

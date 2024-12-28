@@ -7,13 +7,12 @@
 
 .sliderContainer {
 	overflow: hidden;
+	height: 500px; aspect-ratio: 0.6;
 }
 
 .slider {
 	display: flex;
-	/* position: relative; */
 	border-radius: 50px;
-	gap: 30px;
 }
 
 #element {
@@ -53,7 +52,7 @@
 	left: 20px;
 }
 
-@media screen and (width >= 1024px){
+/* @media screen and (width >= 1024px){
 	.slider {
 		padding-left: 40vw;
 	}
@@ -79,4 +78,4 @@
 	.slider {
 		padding-left: 3vw;
 	}
-}
+} */

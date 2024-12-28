@@ -15,7 +15,6 @@ export default function Person({name, photo, link}){
 				</div>
                     <a href={link} className={styles.link} target="_blank">
 						<Image src={linkIcon} alt="Link" width={24} height={24} />
-						Instagram
 					</a>
 			</div>
         </div>
