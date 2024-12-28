@@ -14,16 +14,16 @@ import caramel_latte from './photos/milk/caramel_latte.jpg'
 import kap from './photos/milk/kap.jpg'
 import tropic_flat from './photos/milk/tropic_flat.jpg'
 
-// // import orange from './photos/other/orange.jpg'
-// import rasp_cocao from "./photos/other/rasp_cocao.jpg"
-// import cocao from "./photos/other/cocao.jpg"
-// import kid from "./photos/other/kid.jpg"
-// import hot from "./photos/other/hot.jpg"
+import orangej from './photos/other/orangej.jpg'
+import rasp_cocao from "./photos/other/rasp_cocao.jpg"
+import cocao_v from "./photos/other/cocao_v.jpg"
+import kid_cocao from "./photos/other/kid_cocao.jpg"
+import hot_ch from "./photos/other/hot_ch.jpg"
 
 
-// import rasp from "./photos/tea/rasp.jpg"
+import rasp from "./photos/tea/rasp.jpg"
 
-// import croissant from "./photos/breakfast/croissant.jpg"
+import croissant_v from "./photos/breakfast/croissant_v.jpg"
 
 const photos = {
   black: {
@@ -44,22 +44,22 @@ const photos = {
     kap: kap,
     tropic_flat: tropic_flat,
   },
-//   other: {
-//     // orange: orange,
-//     rasp_cocao: rasp_cocao,
-//     cocao: cocao,
-//     kid: kid,
-//     hot: hot,
-//   }, 
-//   tea: {
-//     rasp: rasp,
-//   },
-//   breakfast: {
-//     croissant: croissant,
-//   },
-//   sweet: {
+  other: {
+    orangej: orangej,
+    rasp_cocao: rasp_cocao,
+    cocao_v: cocao_v,
+    kid_cocao: kid_cocao,
+    hot_ch: hot_ch,
+  }, 
+  tea: {
+    rasp: rasp,
+  },
+  breakfast: {
+    croissant_v: croissant_v,
+  },
+  sweet: {
 
-//   }
+  }
 }
 
 export default photos
