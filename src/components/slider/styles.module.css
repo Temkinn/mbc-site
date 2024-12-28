@@ -6,14 +6,10 @@
 }
 
 .sliderContainer {
-	/* height: 500px; aspect-ratio: 0.7; */
-	/* position: absolute; */
-	/* right: -50vw; */
 	overflow: hidden;
 }
 
 .slider {
-	padding-left: 40vw;
 	display: flex;
 	/* position: relative; */
 	border-radius: 50px;
@@ -55,4 +51,32 @@
 	position: absolute;
 	background-image: url("./prev.png");
 	left: 20px;
+}
+
+@media screen and (width >= 1024px){
+	.slider {
+		padding-left: 40vw;
+	}
+}
+
+@media screen and (width < 1024px){
+	.slider {
+		padding-left: 40vw;
+	}
+}
+
+@media screen and (width < 768px){
+	.slider {
+		padding-left: 15vw;
+	}
+}
+@media screen and (width < 425px){
+	.slider {
+		padding-left: 10vw;
+	}
+}
+@media screen and (width < 375px){
+	.slider {
+		padding-left: 3vw;
+	}
 }
