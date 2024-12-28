@@ -9,12 +9,12 @@ import latte from "./photos/milk/latte.jpg"
 import raf_rasp from "./photos/milk/raf_rasp.jpg"
 import raf_vanila from "./photos/milk/raf_vanila.jpg"
 import lolipop from "./photos/milk/lolipop.jpg"
-import halva from './photos/milk/halva.jpg'
-import caramel from './photos/milk/caramel.jpg'
+// import halva from './photos/milk/halva.jpg'
+// import caramel from './photos/milk/caramel.jpg'
 import kapuchino from './photos/milk/kapuchino.jpg'
 import tropic from './photos/milk/tropic.jpg'
 
-import orange from './photos/other/orange.jpg'
+// import orange from './photos/other/orange.jpg'
 import rasp_cocao from "./photos/other/rasp_cocao.jpg"
 import cocao from "./photos/other/cocao.jpg"
 import kid from "./photos/other/kid.jpg"
@@ -39,13 +39,13 @@ const photos = {
     raf_rasp: raf_rasp,
     raf_vanila: raf_vanila,
     lolipop: lolipop,
-    halva: halva,
-    caramel: caramel,
+    // halva: halva,
+    // caramel: caramel,
     kapuchino: kapuchino,
     tropic: tropic,
   },
   other: {
-    orange: orange,
+    // orange: orange,
     rasp_cocao: rasp_cocao,
     cocao: cocao,
     kid: kid,
