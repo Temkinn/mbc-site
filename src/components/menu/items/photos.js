@@ -27,7 +27,7 @@ import glintvein_ba from "./photos/other/glintvein_ba.jpg"
 
 import raspb from "./photos/tea/raspb.jpg"
 import tea_mint from "./photos/tea/tea_mint.jpg"
-import tea_obl from "./photos/tea/tea_obl.jpg"
+import obl_tea from "./photos/tea/obl_tea.jpg"
 
 import croissant_v from "./photos/breakfast/croissant_v.jpg"
 
@@ -69,7 +69,7 @@ const photos = {
   tea: {
     raspb: raspb,
     tea_mint: tea_mint,
-    tea_obl: tea_obl,
+    obl_tea: obl_tea,
   },
   breakfast: {
     croissant_v: croissant_v,

@@ -3,7 +3,7 @@ import Person from "./person/person"
 
 import Ilya from "./photos/Ilya.jpg"
 import Anton from "./photos/Anton.jpg"
-import Daniil from "./photos/Daniil.png"
+import Daniil from "./photos/Daniil.jpg"
 import Anastasia from "./photos/Anastasia.jpg"
 import Alena from "./photos/Alena.jpg"
 
