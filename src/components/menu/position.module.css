@@ -67,6 +67,7 @@
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
 	visibility: visible;
+	filter: grayscale(10%);
 }
 
 .desc {
@@ -119,6 +120,7 @@
     font-size: 22px;
 	padding-left: 3px;
 	margin-bottom: 10px;
+	text-transform: capitalize;
 }
 
 .g {
