@@ -19,11 +19,22 @@ import raspb_cocao from "./photos/other/raspb_cocao.jpg"
 import cocao_v from "./photos/other/cocao_v.jpg"
 import kid_cocao from "./photos/other/kid_cocao.jpg"
 import hot_ch from "./photos/other/hot_ch.jpg"
+import matcha_orange from "./photos/other/matcha_orange.jpg"
+import matcha_raf from "./photos/other/matcha_raf.jpg"
+import matcha_latte from "./photos/other/matcha_latte.jpg"
+import glintvein_ba from "./photos/other/glintvein_ba.jpg"
 
 
 import raspb from "./photos/tea/raspb.jpg"
+import tea_mint from "./photos/tea/tea_mint.jpg"
+import tea_obl from "./photos/tea/tea_obl.jpg"
 
 import croissant_v from "./photos/breakfast/croissant_v.jpg"
+
+
+import banana_keks from "./photos/sweet/banana_keks.jpg"
+import limon_keks from "./photos/sweet/limon_keks.jpg"
+import salt_iris from "./photos/sweet/salt_iris.jpg"
 
 const photos = {
   black: {
@@ -50,15 +61,23 @@ const photos = {
     cocao_v: cocao_v,
     kid_cocao: kid_cocao,
     hot_ch: hot_ch,
+    matcha_orange: matcha_orange,
+    matcha_raf: matcha_raf,
+    matcha_latte: matcha_latte,
+    glintvein_ba: glintvein_ba,
   }, 
   tea: {
     raspb: raspb,
+    tea_mint: tea_mint,
+    tea_obl: tea_obl,
   },
   breakfast: {
     croissant_v: croissant_v,
   },
   sweet: {
-
+    banana_keks: banana_keks,
+    limon_keks: limon_keks,
+    salt_iris: salt_iris,
   }
 }
 

@@ -28,11 +28,10 @@
 .right {
 	position: absolute;
 	background-image: url("./next.png");
-	right: 20px;
 }
 
 #button {
-	height: 50px; aspect-ratio: 1;
+	aspect-ratio: 1;
     cursor: pointer;
     font-family: Montserrat Bold;
     font-size: 20px;
@@ -42,40 +41,53 @@
 	transition: all .2s linear;
 }
 
-#button:hover {
-	height: 40px;
-}
 
 .left {
 	position: absolute;
 	background-image: url("./prev.png");
-	left: 20px;
 }
 
-/* @media screen and (width >= 1024px){
-	.slider {
-		padding-left: 40vw;
+@media screen and (width >= 1024px){
+	#button {
+		height: 50px;
+	}
+	#button:hover {
+		height: 40px;
+	}
+	.left {
+		left: 20px;
+	}
+	.right {
+		right: 20px;
 	}
 }
 
 @media screen and (width < 1024px){
-	.slider {
-		padding-left: 40vw;
+	#button {
+		height: 50px;
+	}
+	#button:hover {
+		height: 40px;
+	}
+	.left {
+		left: 20px;
+	}
+	.right {
+		right: 20px;
 	}
 }
 
-@media screen and (width < 768px){
-	.slider {
-		padding-left: 15vw;
-	}
-}
 @media screen and (width < 425px){
-	.slider {
-		padding-left: 10vw;
+	#button {
+		height: 40px;
+	}
+	#button:hover {
+		height: 30px;
+	}
+	.left {
+		left: 5px;
+	}
+	.right {
+		right: 5px;
 	}
 }
-@media screen and (width < 375px){
-	.slider {
-		padding-left: 3vw;
-	}
-} */
