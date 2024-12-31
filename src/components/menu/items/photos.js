@@ -32,7 +32,7 @@ import obl_tea from "./photos/tea/obl_tea.jpg"
 import imb_el from "./photos/tea/imb_el.jpg"
 
 import croissant_v from "./photos/breakfast/croissant_v.jpg"
-import croissant_mind from "./photos/breakfast/croissant_mind.jpg"
+import croissant_mindal from "./photos/breakfast/croissant_mindal.jpg"
 
 
 import banana_keks from "./photos/sweet/banana_keks.jpg"
@@ -80,7 +80,7 @@ const photos = {
   },
   breakfast: {
     croissant_v: croissant_v,
-    croissant_mind: croissant_mind,
+    croissant_mindal: croissant_mindal,
   },
   sweet: {
     banana_keks: banana_keks,
