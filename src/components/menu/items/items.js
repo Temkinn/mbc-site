@@ -23,7 +23,7 @@ const items = {
 			g: "200 мл",
 			price: "6",
             description: "Зимний, хвойный, запоминающийся.",
-            photo: photos.black.americano,
+            photo: photos.black.el_americano,
             kpfc: "КБЖУ: 75.1/0.056/0.09/4.5"
 		},
 		{
@@ -51,6 +51,7 @@ const items = {
             kpfc: "КБЖУ: 4/0.1/0/0.1"
 		}
 	],
+	
 	milk : [
 		{
 			name: "Флэт Уайт",
@@ -232,8 +233,16 @@ const items = {
 			name: "Чай Облепиховый-Баунти",
 			g: "300 / 500 мл",
 			price: "8,5 / 9,5 ",
-            description: "Облепиховая кокосовость, для тех, кому послаще",
+            description: "Облепиховая кокосовость, для тех, кому послаще.",
             photo: photos.tea.obl_tea,
+            kpfc: "КБЖУ 300: 107.5/0.6/6/7.9\nКБЖУ 500: 190.2/1.1/9.9/13.8"
+		},
+		{
+			name: "Имбирно-еловый чай",
+			g: "300 / 500 мл",
+			price: "8,5 / 9,5 ",
+            description: "Пряный, медовый, согревающий с леденцовыми нотками.",
+            photo: photos.tea.imb_el,
             kpfc: "КБЖУ 300: 107.5/0.6/6/7.9\nКБЖУ 500: 190.2/1.1/9.9/13.8"
 		},
 	],
@@ -246,6 +255,14 @@ const items = {
 			price: "3,9",
             description: "Нежный, воздушный и хрустящий. Идеальное дополнение к любой чашке.",
             photo: photos.breakfast.croissant_v,
+            kpfc: "КБЖУ: 306/4.9/16.2/36"
+		},
+		{
+			name: "Круассан миндальный",
+			g: "105 г",
+			price: "6,5",
+            description: "Сочетание тончайшего теста с ромом и миндальным кремом.",
+            photo: photos.breakfast.croissant_mind,
             kpfc: "КБЖУ: 306/4.9/16.2/36"
 		},
     ],
@@ -281,7 +298,7 @@ const items = {
 			g: "25 г",
 			price: "3",
             description: "Шоколадный ирис, идеальное дополнение к твоему напитку.",
-            photo: photos.sweet.salt_iris,
+            photo: photos.sweet.choco_iris,
             kpfc: "КБЖУ : 94.25/0.65/4.5/12"
 		},
 	]
