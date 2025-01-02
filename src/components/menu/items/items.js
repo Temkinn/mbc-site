@@ -259,7 +259,7 @@ const items = {
 			g: "105 г",
 			price: "6,5",
             description: "Сочетание тончайшего теста с ромом и миндальным кремом.",
-            photo: photos.breakfast.croissant_mind,
+            photo: photos.breakfast.croissant_mindal,
             kpfc: "КБЖУ: 306/4.9/16.2/36"
 		},
     ],

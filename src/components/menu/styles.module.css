@@ -65,7 +65,8 @@
     margin-bottom: 35px;
 	text-transform: uppercase;
 	text-align: center;
-	min-width: 80%;
+	text-decoration: none;
+	color: #000;
 }
 
 .unitSubtitle {
@@ -144,6 +145,9 @@
 }
 
 @media screen and (width <= 425px) {
+	.unitTitle {
+		min-width: 80%;
+	}
 	.link {
 		height: 38px; width: 100px;
 	}

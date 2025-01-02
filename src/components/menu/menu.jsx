@@ -1,7 +1,6 @@
 import styles from "./styles.module.css";
 import Position from "./position.jsx";
 import items from "./items/items";
-import photos from "./items/photos";
 
 export default function Menu() {
   // function mapping(unit) {
@@ -49,11 +48,11 @@ export default function Menu() {
       </div>
       <div className={styles.menu}>
         <div className={styles.unit}>
-          <div className={styles.unitTitle} id="black">
+          <a href="#menu" className={styles.unitTitle} id="black">
             Black
-          </div>
+          </a>
           <div className={styles.unitSubtitle}>
-            Наведитесь на позицию, чтобы посмотреть описание
+            Наведите на позицию, чтобы посмотреть описание
           </div>
           <div className={styles.items}>
             {items.black.map((item) => {
@@ -73,9 +72,9 @@ export default function Menu() {
         </div>
 
 		<div className={styles.unit}>
-          <div className={styles.unitTitle} id="milk">
+          <a href="#menu" className={styles.unitTitle} id="milk">
             Milk
-          </div>
+          </a>
           <div className={styles.items}>
             {items.milk.map((item) => {
               return (
@@ -94,9 +93,9 @@ export default function Menu() {
         </div>
 
 		<div className={styles.unit}>
-          <div className={styles.unitTitle} id="other">
+          <a href="#menu" className={styles.unitTitle} id="other">
             Other
-          </div>
+          </a>
           <div className={styles.items}>
             {items.other.map((item) => {
               return (
@@ -115,9 +114,9 @@ export default function Menu() {
         </div>
 
 		<div className={styles.unit}>
-          <div className={styles.unitTitle} id="tea">
+          <a href="#menu" className={styles.unitTitle} id="tea">
             Tea
-          </div>
+          </a>
           <div className={styles.items}>
             {items.tea.map((item) => {
               return (
@@ -136,9 +135,9 @@ export default function Menu() {
         </div>
 
 		<div className={styles.unit}>
-          <div className={styles.unitTitle} id="breakfast">
+          <a href="#menu" className={styles.unitTitle} id="breakfast">
             завтраки целый день
-          </div>
+          </a>
           <div className={styles.items}>
             {items.breakfast.map((item) => {
               return (
@@ -157,9 +156,9 @@ export default function Menu() {
         </div>
 
         <div className={styles.unit}>
-          <div className={styles.unitTitle} id="sweet">
+          <a href="#menu" className={styles.unitTitle} id="sweet">
             Сладкое
-          </div>
+          </a>
           <div className={styles.items}>
             {items.sweet.map((item) => {
               return (
