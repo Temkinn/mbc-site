@@ -1,6 +1,12 @@
 .container {
 	height: 100vh;
-	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.telephone {
+	width: 100%;
+	height: 100%;
 	align-items: center;
 	justify-content: center;
 }
@@ -60,6 +66,12 @@
 	.right {
 		right: 20px;
 	}
+	.telephone {
+		display: none;
+	}
+	.pc {
+		display: block;
+	}
 }
 
 @media screen and (width < 1024px){
@@ -74,10 +86,16 @@
 	}
 	.right {
 		right: 20px;
+	}	
+	.telephone {
+		display: none;
+	}	
+	.pc {
+		display: block;
 	}
 }
 
-@media screen and (width < 425px){
+@media screen and (width <= 425px){
 	#button {
 		height: 40px;
 	}
@@ -89,5 +107,11 @@
 	}
 	.right {
 		right: 5px;
+	}
+	.telephone {
+		display: flex;
+	}	
+	.pc {
+		display: none;
 	}
 }

@@ -19,7 +19,6 @@
 }
 
 .up:hover {
-    /* transform: scale(1.1); */
 	transform: rotateZ(360deg);
     background-color: rgba(230, 221, 206, 0.6);
 }
