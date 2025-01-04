@@ -4,8 +4,7 @@ import styles from "./page.module.css";
 import Parallax from "@/components/parallax/parallax";
 import Welcome from '@/components/welcome/welcome'
 import About from "@/components/about/about"
-// import Slider from "@/components/slider/slider";
-import New from "@/components/slider/new";
+import Slider from "@/components/slider/slider";
 import Menu from "@/components/menu/menu";
 
 import SubsIntro from "@/components/subs/intro/intro";
@@ -26,8 +25,7 @@ export default function Home() {
       <Parallax />
       <Welcome />
       <About />
-      {/* <Slider /> */}
-      <New />
+      <Slider />
       <Menu />
 
       <SubsIntro /> 
