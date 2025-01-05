@@ -20,12 +20,12 @@ export default function Subscribe1({white, title, price, old}){
 					Степень обжаривания
 				<div className={styles.cont}>
 					<div className={styles.left}>
-						средняя
-						<div className={styles.espresso}>ESPRESSO</div>
+						светлая
+						<div className={styles.espresso}>FILTER</div>
 					</div>
 					<div className={styles.right}>
 						светлая
-					<div className={styles.espresso}>ESPRESSO</div>
+					<div className={styles.espresso}>FILTER</div>
 					</div>
 				</div>
 			</div>

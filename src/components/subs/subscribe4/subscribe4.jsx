@@ -21,7 +21,7 @@ export default function Subscribe4({white, title, price, old}){
 				<div className={styles.cont}>
 					<div className={styles.left}>
 						средняя
-						<div className={styles.espresso}>ESPRESSO</div>
+						<div className={styles.espresso}>FILTER</div>
 					</div>
 	
 				</div>

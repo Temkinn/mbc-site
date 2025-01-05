@@ -24,7 +24,7 @@ export default function Subscribe3({white, title, price, old}){
 						<div className={styles.espresso}>ESPRESSO</div>
 					</div>
 					<div className={styles.right}>
-						светлая
+						средняя
 					<div className={styles.espresso}>ESPRESSO</div>
 					</div>
 				</div>

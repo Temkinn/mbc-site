@@ -25,7 +25,7 @@ export default function Subscribe2({white, title, price, old}){
 					</div>
 					<div className={styles.right}>
 						светлая
-					<div className={styles.espresso}>ESPRESSO</div>
+					<div className={styles.espresso}>FILTER</div>
 					</div>
 				</div>
 			</div>
