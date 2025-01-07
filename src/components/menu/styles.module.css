@@ -67,6 +67,7 @@
 	text-align: center;
 	text-decoration: none;
 	color: #000;
+	text-wrap: balance;
 }
 
 .unitSubtitle {
@@ -146,7 +147,7 @@
 
 @media screen and (width <= 425px) {
 	.unitTitle {
-		min-width: 80%;
+		min-width: 60%;
 	}
 	.link {
 		height: 38px; width: 100px;

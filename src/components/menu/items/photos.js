@@ -1,3 +1,5 @@
+
+// black
 import americano from "./photos/black/americano.jpg"
 import el_americano from "./photos/black/el_americano.jpg"
 import classic from './photos/black/classic.jpg'
@@ -5,6 +7,7 @@ import aeropress from "./photos/black/aeropress.jpg"
 import cherry from "./photos/black/cherry.jpg"
 import espresso from './photos/black/espresso.jpg'
 
+// milk
 import flat_white from "./photos/milk/flat_white.jpg"
 import latte from "./photos/milk/latte.jpg"
 import raf_rasp from "./photos/milk/raf_rasp.jpg"
@@ -15,6 +18,7 @@ import caramel_latte from './photos/milk/caramel_latte.jpg'
 import kap from './photos/milk/kap.jpg'
 import tropic_flat from './photos/milk/tropic_flat.jpg'
 
+// other
 import orangej from './photos/other/orangej.jpg'
 import raspb_cocao from "./photos/other/raspb_cocao.jpg"
 import cocao_v from "./photos/other/cocao_v.jpg"
@@ -25,16 +29,25 @@ import matcha_raf from "./photos/other/matcha_raf.jpg"
 import matcha_latte from "./photos/other/matcha_latte.jpg"
 import glintvein_ba from "./photos/other/glintvein_ba.jpg"
 
-
+// tea
 import raspb from "./photos/tea/raspb.jpg"
 import tea_mint from "./photos/tea/tea_mint.jpg"
 import obl_tea from "./photos/tea/obl_tea.jpg"
 import imb_el from "./photos/tea/imb_el.jpg"
+import aloe from './photos/tea/aloe1.jpg'
+import leaves from './photos/tea/leaves.jpg'
 
+//breakfask
 import croissant_v from "./photos/breakfast/croissant_v.jpg"
 import croissant_mindal from "./photos/breakfast/croissant_mindal.jpg"
+import croissant_chick from "./photos/breakfast/croissant_chick.jpg"
+import croissant_fund from "./photos/breakfast/croissant_fund.jpg"
+import croissant_redfish from "./photos/breakfast/croissant_redfish.jpg"
+import vanil_sir from './photos/breakfast/vanil_sir.jpg'
+import cheese_sir from './photos/breakfast/cheese_sir.jpg'
 
 
+//sweet
 import banana_keks from "./photos/sweet/banana_keks.jpg"
 import limon_keks from "./photos/sweet/limon_keks.jpg"
 import salt_iris from "./photos/sweet/salt_iris.jpg"
@@ -77,10 +90,17 @@ const photos = {
     tea_mint: tea_mint,
     obl_tea: obl_tea,
     imb_el: imb_el,
+    aloe: aloe,
+    leaves: leaves,
   },
   breakfast: {
     croissant_v: croissant_v,
     croissant_mindal: croissant_mindal,
+    croissant_chick: croissant_chick,
+    croissant_fund: croissant_fund,
+    croissant_redfish: croissant_redfish,
+    vanil_sir: vanil_sir,
+    cheese_sir: cheese_sir,
   },
   sweet: {
     banana_keks: banana_keks,
