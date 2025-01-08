@@ -10,6 +10,7 @@ export default function Parallax() {
       </a>
       <div className={styles.contacts}>
         <a
+          target="_blank"
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           className={styles.link}
         >
@@ -59,6 +60,7 @@ export default function Parallax() {
           </svg>
         </a>
         <a
+          target="_blank"
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           className={styles.link}
         >
@@ -97,6 +99,7 @@ export default function Parallax() {
           </svg>
         </a>
         <a
+          target="_blank"
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           className={styles.link}
         >
@@ -127,6 +130,7 @@ export default function Parallax() {
           </svg>
         </a>
         <a
+          target="_blank"
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           className={styles.link}
         >
@@ -150,7 +154,12 @@ export default function Parallax() {
           </svg>
         </a>
         <div className={styles.main}>
-          <Image src={require("./support.png")} alt="contacts" fill="true" />
+          <Image
+            src={require("./support.png")}
+            alt="contacts"
+            width={30}
+            height={30}
+          />
         </div>
       </div>
     </>

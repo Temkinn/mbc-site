@@ -32,16 +32,19 @@
 	flex-direction: column;
 	gap: 10px;
 	align-items: center;
-	left: 40px;
+	left: 30px;
 	bottom: 30px;
 	transition: all .5s ease;
 	overflow: hidden;
 	border-radius: 50px;
+	background-color: #EAA73E;
 	
 	--num: 4; /* num of children except .main*/
 }
 
-
+.contacts:hover {
+	background-color: #DFE4F0;
+}
 
 .contacts:hover > .main{
 	transform: rotateZ(0deg);
@@ -54,7 +57,6 @@
 	justify-content: center;
 	aspect-ratio: 1;
 	border-radius: 50px;
-	/* background-color: #EAA73E; */
 	color: #000000e6;
     transition: all 0.5s cubic-bezier(.95, .32, .37, 1.21);
 	transform: rotateZ(360deg);
@@ -120,7 +122,7 @@
 }
 
 
-/* menu */
+/* menu/ */
 
 
 
@@ -134,15 +136,13 @@
 	}
 	.link {
         width: 49px;
+		color: #000;
 	}
 	.contacts {
 		height: 59px;
 	}
 	.contacts:hover{
 		height: calc(59px + 49px * var(--num) + 10px * var(--num) + 10px);
-	}
-	.link {
-		color: #000;
 	}
 	.link::before {
 		background: #000;
@@ -159,6 +159,7 @@
 	}
 	.link {
         width: 45px;
+		color: #000;
 	}
 	.contacts {
 		height: 55px;
@@ -166,9 +167,7 @@
 	.contacts:hover{
 		height: calc(55px + 45px * var(--num) + 10px * var(--num) + 10px);
 	}
-	.link {
-        color: #000;
-    }
+
 	.link::before {
 		background: #000;
 		transform: scale(0);
@@ -180,17 +179,17 @@
 		width: 40px;
 	}
 	.main {
-        width: 40px;
+        width: 50px;
 	}
 	.link {
-        width: 40px;
+        width: 45px;
 		color: #E6DDCE;
 	}
 	.contacts {
-		height: 40px;
+		height: 47px;
 	}
 	.contacts:hover{
-		height: calc(40px + 40px * var(--num) + 10px * var(--num) + 10px);
+		height: calc(50px + 45px * var(--num) + 10px * var(--num) + 10px);
 	}
 	.link::before {
 		transform: scale(1);
