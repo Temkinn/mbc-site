@@ -68,6 +68,17 @@
 	text-decoration: none;
 	color: #000;
 	text-wrap: balance;
+	outline: none;
+	border: none;
+}
+
+.unitTitle:active{
+	outline: none;
+    border: none;
+}
+.unitTitle:focus{
+	outline: none;
+    border: none;
 }
 
 .unitSubtitle {

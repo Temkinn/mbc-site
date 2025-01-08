@@ -1,12 +1,6 @@
 import styles from './styles.module.css'
-import { useState, useEffect } from 'react'
 
 export default function Welcome() {
-	const [isClient, setIsClient] = useState(false)
- 
-	useEffect(() => {
-	  setIsClient(true)
-	}, [])
 	return (
 
         <div className={styles.container}>
