@@ -33,9 +33,11 @@ import glintvein_ba from "./photos/other/glintvein_ba.jpg"
 import raspb from "./photos/tea/raspb.jpg"
 import tea_mint from "./photos/tea/tea_mint.jpg"
 import obl_tea from "./photos/tea/obl_tea.jpg"
+import obl_baunty from "./photos/tea/obl_baunty.jpg"
 import imb_el from "./photos/tea/imb_el.jpg"
 import aloe from './photos/tea/aloe1.jpg'
 import leaves from './photos/tea/leaves.jpg'
+
 
 //breakfask
 import croissant_v from "./photos/breakfast/croissant_v.jpg"
@@ -89,6 +91,7 @@ const photos = {
     raspb: raspb,
     tea_mint: tea_mint,
     obl_tea: obl_tea,
+    obl_baunty: obl_baunty,
     imb_el: imb_el,
     aloe: aloe,
     leaves: leaves,

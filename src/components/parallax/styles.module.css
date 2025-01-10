@@ -48,6 +48,7 @@
 
 .contacts:hover > .main{
 	transform: rotateZ(0deg);
+	color: #000;
 }
 
 .main {
@@ -60,6 +61,7 @@
 	color: #000000e6;
     transition: all 0.5s cubic-bezier(.95, .32, .37, 1.21);
 	transform: rotateZ(360deg);
+	color: #DFE4F0;
 }
 
 .link {
@@ -93,6 +95,12 @@
 	fill: currentColor;
 }
 .link svg *[stroke] {
+	stroke: currentColor;
+}
+.main svg *[fill] {
+	fill: currentColor;
+}
+.main svg *[stroke] {
 	stroke: currentColor;
 }
 

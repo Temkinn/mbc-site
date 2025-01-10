@@ -63,9 +63,9 @@ export default function Slider() {
     <div className={styles.container}>
 		<div className={styles.pc}>
         <Swiper
-          slidesPerView={4}
+          slidesPerView={5}
           centeredSlides={true}
-          spaceBetween={60}
+          spaceBetween={20}
           grabCursor={true}
           pagination={{
             clickable: true,
