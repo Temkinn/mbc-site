@@ -1,7 +1,7 @@
 .container {
 	width: 100vw;
 	min-height: 100vh;
-	background-image: url('./../../../../public/yellow_background.png');
+	background-image: url('./../../../../public/yellow_background.jpg');
 	transition: all .5s ease-in;
 	display: none;
 	flex-direction: column;

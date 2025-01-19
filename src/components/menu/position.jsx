@@ -6,7 +6,7 @@ export default function Position({name, photo, price, kpfc, description, amount}
 		<div key={name} className={styles.item}>
 		  <div className={styles.photo}>
 			<div className={styles.front}>
-			  <Image src={photo} alt={name} fill/>
+			  <Image src={photo} alt={name} loading='eager' fill/>
 			</div>
 			<div className={styles.desc}>
 				<div className={styles.descInner}>

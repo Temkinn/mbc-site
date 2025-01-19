@@ -8,7 +8,7 @@ export default function Company({name, photo, link, ratio}){
 				aspectRatio: ratio,
                 objectFit: 'cover'
 			}}>
-				<Image src={photo} alt={name} fill={true}/>
+				<Image src={photo} alt={name} loading='eager' fill={true}/>
 			</div>
 			<div className={styles.name}>{name}</div>
         </a>

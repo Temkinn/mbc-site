@@ -6,7 +6,7 @@ html {
 	scroll-behavior: smooth;
 }
 body{
-	background-image: url('./../../public/white_background.png');
+	background-image: url('./../../public/white_background.jpg');
 	overflow-x: hidden;
 }
 @font-face {

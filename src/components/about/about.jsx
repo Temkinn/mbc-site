@@ -10,6 +10,7 @@ export default function About(){
                 src={bread}
                 alt="Bread"
                 className={styles.bread}
+                loading='eager'
                 width={170}
                 height={170}/>
 
@@ -17,6 +18,7 @@ export default function About(){
                 src={croissant}
                 alt="Croissant"
                 className={styles.croissant}
+                loading='eager'
                 width={160}
                 height={160}/>
 

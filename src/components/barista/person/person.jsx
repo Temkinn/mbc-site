@@ -6,7 +6,7 @@ export default function Person({name, photo, link}){
 	return (
         <div className={styles.container}>
 			<div className={styles.photo}>
-				<Image src={photo} alt={name} fill className={styles.photo} />
+				<Image src={photo} alt={name} fill loading='eager' className={styles.photo} />
 			</div>
 			<div className={styles.info}>
 				<div className={styles.nickname}>

@@ -65,7 +65,7 @@ export default function Slider() {
         <Swiper
           slidesPerView={5}
           centeredSlides={true}
-          spaceBetween={20}
+          spaceBetween={60}
           grabCursor={true}
           pagination={{
             clickable: true,
@@ -83,25 +83,28 @@ export default function Slider() {
           }}
         >
           <SwiperSlide>
-            <Image src={require("./photos/1.jpg")} alt="photo" fill />
+            <Image src={require("./photos/1.jpg")} alt="photo" loading='eager' fill />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={require("./photos/2.jpg")} alt="photo" fill />
+            <Image src={require("./photos/2.jpg")} alt="photo" loading='eager' fill />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={require("./photos/3.jpg")} alt="photo" fill />
+            <Image src={require("./photos/3.jpg")} alt="photo" loading='eager' fill />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={require("./photos/4.jpg")} alt="photo" fill />
+            <Image src={require("./photos/4.jpg")} alt="photo" loading='eager' fill />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={require("./photos/5.jpg")} alt="photo" fill />
+            <Image src={require("./photos/5.jpg")} alt="photo" loading='eager' fill />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={require("./photos/6.jpg")} alt="photo" fill />
+            <Image src={require("./photos/6.jpg")} alt="photo" loading='eager' fill />
           </SwiperSlide>
         </Swiper>
       </div>
+
+
+      
       <div className={styles.telephone}>
         <div className={styles.right} onClick={next} id={styles.button} />
         <div className={styles.left} onClick={prev} id={styles.button} />
@@ -125,6 +128,7 @@ export default function Slider() {
                     src={image.photo}
                     alt="kawda"
                     className={styles.photo}
+                    loading='eager'
                     fill={true}
                   />
                 </div>

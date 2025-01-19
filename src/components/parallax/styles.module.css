@@ -1,7 +1,7 @@
 .parallax{
 	height: 100vh;
 	width: 100vw;
-	background-image: url("./../../../public/white_background.png");
+	background-image: url("./../../../public/white_background.jpg");
 	position: fixed;
 	z-index: -5;
 }
@@ -22,6 +22,9 @@
 	transform: rotateZ(360deg);
     background-color: #EAA73E;
 }
+
+
+
 /* menu */
 
 .contacts {
@@ -150,7 +153,8 @@
 		height: 59px;
 	}
 	.contacts:hover{
-		height: calc(59px + 49px * var(--num) + 10px * var(--num) + 10px);
+		/* height: calc(55px + 55px * var(--num) + 10px); */
+		height: calc(59px + 49px * 1 + 10px * 1 + 10px);
 	}
 	.link::before {
 		background: #000;
@@ -173,7 +177,8 @@
 		height: 55px;
 	}
 	.contacts:hover{
-		height: calc(55px + 45px * var(--num) + 10px * var(--num) + 10px);
+		/* height: calc(55px + 55px * var(--num) + 10px); */
+		height: calc(55px + 55px * 1 + 10px);
 	}
 
 	.link::before {
@@ -197,7 +202,8 @@
 		height: 47px;
 	}
 	.contacts:hover{
-		height: calc(50px + 45px * var(--num) + 10px * var(--num) + 10px);
+		/* height: calc(50px + 45px * var(--num) + 10px * var(--num) + 10px); */
+		height: calc(50px + 55px * 1 + 10px);
 	}
 	.link::before {
 		transform: scale(1);

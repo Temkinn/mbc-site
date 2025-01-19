@@ -1,5 +1,5 @@
 import styles from "./styles.module.css"
-import third from "@/../public/third.png"
+import third from "@/../public/third.jpg"
 
 
 export default function Subscribe3({white, title, price, old}){

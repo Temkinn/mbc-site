@@ -16,10 +16,10 @@ export default function Footer(){
 				<div className={styles.line}>Выходные: 8:00 - 22:00</div>
 				<div className={styles.links}>
 					<a href='https://www.youtube.com/@manualbrewcoffee?si=UjnzfuuAdH67HHZ0' target='_blank' className={styles.instagram}>
-						<Image src={youtube} width={40} height={40} alt='youtube'/>
+						<Image src={youtube} loading='eager' width={40} height={40} alt='youtube'/>
 					</a>
 					<a href='https://www.instagram.com/mbc.culture/?igsh=cnk5N3RiNjk3aXRv#' target='_blank' className={styles.youtube}>
-						<Image src={Inst} width={40} height={40} alt='instagram'/>
+						<Image src={Inst} loading='eager' width={40} height={40} alt='instagram'/>
 					</a>
 				</div>
 			</div>
