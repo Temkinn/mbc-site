@@ -17,7 +17,7 @@ export default function Partners(){
 			<div className={styles.companies}>
 				<Company name="Tasty Coffee" photo={TC} ratio={1} link="https://www.youtube.com/@tastycoffeeroasters"/>
 				<Company name="THE WELDER CATHERINE" photo={Welder} ratio={1} link="https://www.youtube.com/@TheWelderCatherine"/>
-				<Company name="RIVER ROASTERS" photo={RiverR} ratio={1.6} link="https://www.youtube.com/@LarryHess"/>
+				<Company name="RIVER ROASTERS" photo={RiverR} ratio={1.6} link="https://www.instagram.com/riverespressoclub?igsh=MWtuMWgyZmZxMHRuMQ=="/>
 				<Company name="UNICAVA" photo={Unicava} ratio={1.5} link="https://www.instagram.com/unicava_ru/?hl=ru"/>
 				<Company name="DRINKSPACE.RU" photo={Space} ratio={1.7} link="https://www.instagram.com/drink_space/"/>
 				<Company name="DRINKSOME" photo={DS} ratio={1.17} link="https://www.youtube.com/@Drinksome"/>

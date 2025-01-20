@@ -165,7 +165,7 @@ const items = {
 		g: "300 мл",
 		price: "9",
 		description:
-		  "Тот самый «Bean to Bar» какао, малиново-шоколадное. Уникалочка в нашем исполнении.",
+		  "То самое «Bean to Bar» какао, малиново-шоколадное. Уникалочка в нашем исполнении.",
 		photo: photos.other.raspb_cocao,
 		kpfc: "КБЖУ: 224.3/7.1/13.2/14.9",
 	},
@@ -231,7 +231,7 @@ const items = {
 		price: "7",
 		description: "Насыщенные и ароматные селекционные чаи на выбор.",
 		photo: photos.tea.leaves,
-		kpfc: "рыба",
+		kpfc: "",
 	},
 	{
 		name: "Чай Мятный",

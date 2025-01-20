@@ -28,19 +28,19 @@ export default function Subs(){
 			<div className={styles.subscribes}>
 				<Subscribe1 title="Кофе в зернах"
 					white={`ФИЛЬТР ПОДПИСКА ${monthes[month]}`}
-					price="56 BYN"
+					price="62 BYN"
 					old="70 BYN"/>
 				<Subscribe2 title="Кофе в зернах"
 					white={`МИКС ПОДПИСКА ${monthes[month]}`}
-					price="54 BYN"
+					price="60 BYN"
 					old="68 BYN"/>
 				<Subscribe3 title="Кофе в зернах"
 					white={`ЭСПРЕССО ${monthes[month]}`}
-					price="52 BYN"
+					price="57 BYN"
 					old=" 66 BYN"/>
 				<Subscribe4 title="Кофе в дрип пакетах"
 					white={`ДРИП ПОДПИСКА ${monthes[month]}`}
-					price="96 BYN"
+					price="106 BYN"
 					old="120 BYN"/>
 			</div>
 			<a href="https://docs.google.com/forms/d/1Gx2PhXDeb8MmYds0EboKcs9T1BgHGB9QDdWEZ6sUdvg/edit" className={styles.button}>Подписаться</a>

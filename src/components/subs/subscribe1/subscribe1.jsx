@@ -67,6 +67,9 @@ export default function Subscribe1({white, title, price, old}){
 					Выдающиеся ноты
 				</div>	
 			</div>
+			<a href="https://docs.google.com/forms/d/1Gx2PhXDeb8MmYds0EboKcs9T1BgHGB9QDdWEZ6sUdvg/edit" className={styles.sub}>
+Подписаться
+			</a>
 		</div>
 	)
 }

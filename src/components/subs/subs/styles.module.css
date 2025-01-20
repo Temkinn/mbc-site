@@ -38,3 +38,9 @@
 	border: 4px #266665 solid;
     background-color: #266665;
 }
+
+@media screen and (width <= 415px) {
+	.button{
+		display: none;
+	}
+}
