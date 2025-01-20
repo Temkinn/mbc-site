@@ -282,7 +282,7 @@ const items = {
       price: "8,5 / 9,5",
       description: "Пряный, медовый, согревающий с леденцовыми нотками.",
       photo: photos.tea.imb_el,
-      kpfc: "рыба",
+      kpfc: "",
     },
   ],
 
@@ -321,7 +321,7 @@ const items = {
       description:
         "Хрустящий круассан со сливочным сыром, листьями свежего салата и лососем домашнего посола.",
       photo: photos.breakfast.croissant_redfish,
-      kpfc: "рыба",
+      kpfc: "",
     },
     {
       name: "Круассан с курицей",
@@ -339,7 +339,7 @@ const items = {
       description:
         "Воздушный, хрустящий круассан с фундучным кремом и легким послевкусием рома.",
       photo: photos.breakfast.croissant_fund,
-      kpfc: "рыба",
+      kpfc: "",
     },
 	{
 		name: "Круассан миндальный",
@@ -347,7 +347,7 @@ const items = {
 		price: "6,5",
 		description: "Сочетание тончайшего теста с ромом и миндальным кремом.",
 		photo: photos.breakfast.croissant_mindal,
-		kpfc: "рыба",
+		kpfc: "",
 	},
   ],
 
