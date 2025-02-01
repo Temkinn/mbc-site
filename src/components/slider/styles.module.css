@@ -95,7 +95,7 @@
 	}
 }
 
-@media screen and (width <= 425px){
+@media screen and (width <= 500px){
 	#button {
 		height: 40px;
 	}

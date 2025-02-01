@@ -231,7 +231,7 @@
 	}
 }
 
-@media screen and (width < 425px) {
+@media screen and (width < 500px) {
 	.reason1 {
 		right: 15%;
 	}

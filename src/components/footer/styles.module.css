@@ -99,7 +99,7 @@
 	}
 }
 
-@media screen and (width <= 425px) {
+@media screen and (width <= 500px) {
 	.inner {
 		width: 80%;
 		height: 60%;

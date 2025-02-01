@@ -78,7 +78,7 @@
 	}
 }
 
-@media screen and (width <= 425px) {
+@media screen and (width <= 500px) {
 	.container {
 		width: max-content; height: 140px;
 	}

@@ -186,7 +186,7 @@
 		transform: scale(0);
 	}
 }
-@media screen and (width <= 425px){
+@media screen and (width <= 500px){
 	.up {
 		right: 30px;
 		width: 40px;

@@ -155,7 +155,7 @@
 }
 
 
-@media screen and (width <= 425px) {
+@media screen and (width <= 500px) {
 	.item {
 		height: 400px;
 	}

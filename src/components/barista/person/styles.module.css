@@ -107,7 +107,7 @@
 	}
 }
 
-@media screen and (width <= 425px) {
+@media screen and (width <= 500px) {
 	.container {
 		height: 240px; aspect-ratio: 1/1;
 	}

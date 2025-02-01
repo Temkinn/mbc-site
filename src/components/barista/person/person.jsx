@@ -1,6 +1,7 @@
 import styles from './styles.module.css'
 import Image from 'next/image'
 import linkIcon from '@/../public/instagram.png'
+import Link from 'next/link'
 
 export default function Person({name, photo, link}){
 	return (
@@ -13,9 +14,9 @@ export default function Person({name, photo, link}){
 					<div className={styles.name}>{name}</div>
 					<div className={styles.bar}>Бариста</div>
 				</div>
-                    <a href={link} className={styles.link} target="_blank">
+                    <Link href={link} className={styles.link} target="_blank">
 						<Image src={linkIcon} alt="Link" width={24} height={24} />
-					</a>
+					</Link>
 			</div>
         </div>
     )

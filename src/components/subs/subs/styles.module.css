@@ -39,7 +39,7 @@
     background-color: #266665;
 }
 
-@media screen and (width <= 415px) {
+@media screen and (width <= 500px) {
 	.button{
 		display: none;
 	}
