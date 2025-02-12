@@ -6,10 +6,9 @@ html {
 	scroll-behavior: smooth;
 }
 body{
-	background-image: url('./../../public/white_background.jpg');
 	overflow-x: hidden;
 }
 @font-face {
 	font-family: Montserrat Alternates;
-	src: url("/src/app/fonts/MontserratAlternates-Medium.ttf");
+	src: url("./fonts/MontserratAlternates-Medium.woff2");
 }
