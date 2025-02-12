@@ -9,6 +9,7 @@ import Menu from "@/components/menu/menu";
 
 import SubsIntro from "@/components/subs/intro/intro";
 import SubsWhy from "@/components/subs/why/why";
+import Advantages from "@/components/subs/advantages/advantages";
 import SubsChoice from "@/components/subs/choice/choice";
 import Subs from "@/components/subs/subs/subs";
 
@@ -30,6 +31,7 @@ export default function Home() {
 
       <SubsIntro /> 
       <SubsWhy />
+      {/* <Advantages /> */}
       <SubsChoice />
       <Subs />
 

@@ -65,7 +65,7 @@ export default function Slider() {
         <Swiper
           slidesPerView={5}
           centeredSlides={true}
-          spaceBetween={60}
+          spaceBetween={10}
           grabCursor={true}
           pagination={{
             clickable: true,

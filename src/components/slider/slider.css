@@ -20,7 +20,7 @@
 .swiper-slide-fully-visible img,
 .swiper-slide-next img {
 	border-radius: 50px;
-	filter: grayscale(100%);
+	filter: grayscale(80%);
 	transition: filter .4s ease-in-out;
 }
 

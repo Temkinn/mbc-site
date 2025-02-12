@@ -1,0 +1,39 @@
+.container {
+	--blue: #08173F;
+	--green: #266665;
+	--yellow: #EAA73E;
+	--bone: #E6DDCE;
+}
+
+.container {
+	min-height: 100vh;
+	width: 100vw;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url('./../../../../public/green_background.png');
+}
+
+.dl {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	bottom: 10vh;
+	right: 0;
+}
+
+.dot {
+	position: absolute;
+	left: 30vw;
+	width: 20px;
+	aspect-ratio: 1/1;
+	background-color: var(--yellow);
+	border-radius: 50px;
+}
+
+.line {
+	width: 100vw; height: 4px;
+	background-color: var(--yellow);
+}
