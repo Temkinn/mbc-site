@@ -55,6 +55,10 @@
 		-ms-transform: rotateY(0deg);
 		transform: rotateY(0deg);
 	}
+
+	&::selection {
+		background: transparent;
+	}
 }
 
 
