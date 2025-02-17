@@ -37,6 +37,7 @@
 	cursor: pointer;
 	transition: transform 1s;
 	transform-style: preserve-3d;
+	user-select: none;
 
 	&:hover > .front {
 		transform: perspective(1000px) rotateY(180deg);
@@ -49,18 +50,15 @@
 
 	&:hover > .desc {
 		transform: perspective(1000px) rotateY(0deg);
-		-webkit-transform: rotateY(0deg);
-		-moz-transform: rotateY(0deg);
-		-o-transform: rotateY(0deg);
-		-ms-transform: rotateY(0deg);
-		transform: rotateY(0deg);
+		-webkit-transform: perspective(1000px) rotateY(0deg);
+		-moz-transform: perspective(1000px) rotateY(0deg);
+		-o-transform: perspective(1000px) rotateY(0deg);
+		-ms-transform: perspective(1000px) rotateY(0deg);
+		transform: perspective(1000px) rotateY(0deg);
 	}
 
-	&::selection {
-		background: transparent;
-	}
-	div::selection {
-		background: transparent;
+	div {
+		user-select: none;
 	}
 }
 
@@ -106,7 +104,7 @@
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
-	transform: perspective(1000px) rotateY(180deg);
+	transform: perspective(1000px) rotateY(-180deg);
 	background-color: rgba(223, 228, 240, 0.4);
 	border-radius: 20px;
 	transition: transform ease-in-out 1s;
