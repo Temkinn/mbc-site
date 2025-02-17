@@ -39,12 +39,12 @@
 	transform-style: preserve-3d;
 
 	&:hover > .front {
-		transform: perspective(1000px) rotateY(-180deg);
-		-webkit-transform: rotateY(-180deg);
-		-moz-transform: rotateY(-180deg);
-		-o-transform: rotateY(-180deg);
-		-ms-transform: rotateY(-180deg);
-		transform: rotateY(-180deg);
+		transform: perspective(1000px) rotateY(180deg);
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+		-o-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		transform: rotateY(180deg);
     }
 
 	&:hover > .desc {
@@ -105,7 +105,7 @@
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
-	transform: perspective(1000px) rotateY(180deg);
+	transform: perspective(1000px) rotateY(-180deg);
 	background-color: rgba(223, 228, 240, 0.4);
 	border-radius: 20px;
 	transition: transform ease-in-out 1s;
