@@ -83,22 +83,22 @@ export default function Slider() {
           }}
         >
           <SwiperSlide>
-            <Image src={require("./photos/1.jpg")} alt="photo" loading='eager' fill />
+            <Image src={require("./photos/1.jpg")} placeholder="blur" alt="photo" loading='eager' fill />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={require("./photos/2.jpg")} alt="photo" loading='eager' fill />
+            <Image src={require("./photos/2.jpg")} placeholder="blur" alt="photo" loading='eager' fill />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={require("./photos/3.jpg")} alt="photo" loading='eager' fill />
+            <Image src={require("./photos/3.jpg")} placeholder="blur" alt="photo" loading='eager' fill />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={require("./photos/4.jpg")} alt="photo" loading='eager' fill />
+            <Image src={require("./photos/4.jpg")} placeholder="blur" alt="photo" loading='eager' fill />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={require("./photos/5.jpg")} alt="photo" loading='eager' fill />
+            <Image src={require("./photos/5.jpg")} placeholder="blur" alt="photo" loading='eager' fill />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={require("./photos/6.jpg")} alt="photo" loading='eager' fill />
+            <Image src={require("./photos/6.jpg")} placeholder="blur" alt="photo" loading='eager' fill />
           </SwiperSlide>
         </Swiper>
       </div>
@@ -130,6 +130,7 @@ export default function Slider() {
                     className={styles.photo}
                     loading='eager'
                     fill={true}
+                    placeholder="blur"
                   />
                 </div>
               );
