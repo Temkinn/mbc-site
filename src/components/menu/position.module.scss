@@ -38,6 +38,8 @@
 	transition: transform 1s;
 	transform-style: preserve-3d;
 	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	float: none;
 
 	&:hover > .front {
 		transform: perspective(1000px) rotateY(180deg);
@@ -59,6 +61,8 @@
 
 	div {
 		user-select: none;
+		-webkit-tap-highlight-color: transparent;
+		float: none;
 	}
 }
 
