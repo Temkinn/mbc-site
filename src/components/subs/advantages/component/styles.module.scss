@@ -1,13 +1,3 @@
-@font-face {
-	font-family: Montserrat bold;
-	src: url(/src/app/fonts/MontserratAlternates-Bold.woff2);
-}
-
-@font-face {
-	font-family: Montserrat;
-	src: url(/src/app/fonts/MontserratAlternates-Regular.woff2);
-}
-
 .container {
 	--blue: #08173F;
 	--green: #266665;
@@ -41,7 +31,8 @@
 		font-size: 25px;
 	}
 	p {
-		font-family: Montserrat;
+			font-family: var(--montserrat);
+			font-weight: 500;
 	}
 	
 	

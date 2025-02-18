@@ -4,15 +4,6 @@
 	--yellow: #EAA73E;
 	--bone: #E6DDCE;
 }
-@font-face {
-	font-family: Montserrat bold;
-	src: url('./../../../app/fonts/MontserratAlternates-Bold.woff2');
-}
-
-@font-face {
-	font-family: Montserrat;
-	src: url('./../../../app/fonts/MontserratAlternates-Medium.woff2');
-}
 
 .container {
 	display: flex;
@@ -34,7 +25,8 @@
 	align-items: center;
 	justify-content: center;
 
-	font-family: Montserrat;
+	font-family: var(--montserrat);
+	font-weight: 500;
 	font-size: 15px;
 
 	background-color: var(--yellow);
@@ -54,7 +46,8 @@
 	align-items: center;
 	justify-content: center;
 
-	font-family: Montserrat;
+	font-family: var(--montserrat);
+	font-weight: 500;
 	font-size: 15px;
 
 	background-color: var(--blue);
@@ -74,7 +67,8 @@
 	align-items: center;
 	justify-content: center;
 
-	font-family: Montserrat;
+	font-family: var(--montserrat);
+	font-weight: 500;
 	font-size: 15px;
 
 	background-color: var(--green);
@@ -94,7 +88,8 @@
 	align-items: center;
 	justify-content: center;
 
-	font-family: Montserrat;
+	font-family: var(--montserrat);
+	font-weight: 500;
 	font-size: 15px;
 
 	background-color: var(--bone);
@@ -107,13 +102,15 @@
 }
 
 .title {
-	font-family: Montserrat bold;
+	font-family: var(--montserrat);
+	font-weight: 700;
 	max-width: 80%;
 	text-align: center;
 }
 
 .subtitle {
-	font-family: Montserrat;
+	font-family: var(--montserrat);
+	font-weight: 500;
     max-width: 80%;
     text-align: center;
 }

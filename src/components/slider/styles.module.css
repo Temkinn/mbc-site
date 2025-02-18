@@ -34,12 +34,14 @@
 .right {
 	position: absolute;
 	background-image: url("./next.png");
+	-webkit-tap-highlight-color: transparent;
 }
 
 #button {
 	aspect-ratio: 1;
     cursor: pointer;
-    font-family: Montserrat Bold;
+	font-family: var(--montserrat);
+	font-weight: 700;
     font-size: 20px;
 	background-size: cover;
 	border-radius: 50px;
@@ -51,6 +53,7 @@
 .left {
 	position: absolute;
 	background-image: url("./prev.png");
+	-webkit-tap-highlight-color: transparent;
 }
 
 @media screen and (width >= 1024px){

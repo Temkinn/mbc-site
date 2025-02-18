@@ -1,40 +1,9 @@
-@font-face {
-	font-family: Montserrat Alternates;
-	src: url("./../../../app/fonts/MontserratAlternates-Medium.woff2");
-}
-
-@font-face {
-	font-family: Montserrat Alternates Bold;
-	src: url("./../../../app/fonts/MontserratAlternates-Bold.woff2");
-}
-
-@font-face {
-	font-family: Montserrat Alternates semibold;
-	src: url("./../../../app/fonts/MontserratAlternates-SemiBold.woff2");
-}
-
-@font-face {
-	font-family: Montserrat Alternates ExtraLight;
-	src: url("./../../../app/fonts/MontserratAlternates-ExtraLight.woff2");
-}
-
-@font-face {
-	font-family: Montserrat Alternates Light;
-	src: url("./../../../app/fonts/MontserratAlternates-Light.woff2");
-}
-
-@font-face {
-	font-family: Montserrat Alternates Regular;
-	src: url("./../../../app/fonts/MontserratAlternates-Regular.woff2");
-}
-
-@font-face {
-	font-family: Montserrat Alternates Thin;
-	src: url("./../../../app/fonts/MontserratAlternates-Thin.woff2");
-}
-
 .container {
 	display: flex;
+}
+
+.bar {
+	font-size: 14px;
 }
 
 .photo {
@@ -56,13 +25,15 @@
 
 .nickname {
 	height: 100%; width: 100%;
-	font-family: Montserrat Alternates Light;
+	font-family: var(--montserrat);
+	font-weight: 300;
     font-size: 12px;
     color: #7a7a7a;
 }
 
 .name {
-	font-family: Montserrat Alternates semibold;
+	font-family: var(--montserrat);
+	font-weight: 600;
     color: #fff;
 	margin-bottom: 14px;
 }
@@ -72,7 +43,8 @@
 	display: flex; align-items: center; gap: 10px;
 	background-color: #fff;
 	color: black;
-	font-family: Montserrat Alternates;
+	font-family: var(--montserrat);
+	font-weight: 500;
 	font-size: 14px;
 	text-decoration: none;
 	padding-left: 10px;

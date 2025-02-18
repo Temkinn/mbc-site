@@ -2,17 +2,6 @@
 	--blue: #08173F;
 	--yellow: #EAA73E;
 }
-@font-face {
-	font-family: Montserrat bold;
-	src: url('./../../../app/fonts/MontserratAlternates-Bold.woff2');
-}
-
-@font-face {
-	font-family: Montserrat;
-	src: url('./../../../app/fonts/MontserratAlternates-Medium.woff2');
-}
-
-
 
 .mainTitle {
 	width: 100vw; height: 70px;
@@ -20,7 +9,8 @@
 	align-items: center;
 	justify-content: center;
 	background-color: var(--blue);
-	font-family: Montserrat;
+	font-family: var(--montserrat);
+	font-weight: 500;
 	color: #fff;
 	margin-bottom: 40px;
 }
@@ -47,7 +37,8 @@
 	display: flex;
 	align-items: center;
 	color: #fff;
-	font-family: Montserrat bold; 
+	font-family: var(--montserrat);
+	font-weight: 700;
 	text-transform: uppercase;
 	padding: 0px 30px;
 	border-radius: 50px;

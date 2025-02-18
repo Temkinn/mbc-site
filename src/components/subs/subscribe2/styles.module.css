@@ -1,21 +1,3 @@
-@font-face {
-	font-family: Montserrat Light;
-	src: url("./../../../app/fonts/MontserratAlternates-Light.woff2");
-}
-
-@font-face {
-	font-family: Montserrat Bold;
-	src: url("./../../../app/fonts/MontserratAlternates-Bold.woff2");
-}
-
-@font-face {
-	font-family: Montserrat;
-	src: url("./../../../app/fonts/MontserratAlternates-Medium.woff2");
-}
-
-
-
-
 .container {
 	width: 260px;
 	height: 615px;
@@ -38,7 +20,8 @@
 	border-bottom-right-radius: 0px;
 	border-bottom-left-radius: 0px;
 	color: #266665;
-	font-family: Montserrat Bold;
+	font-family: var(--montserrat);
+	font-weight: 700;
 	font-size: 20px;
 }
 
@@ -46,7 +29,8 @@
 	width: 160px; height: 35px;
 	background-color: #EAA73E;
     color: #16295d;
-	font-family: Montserrat Light;
+	font-family: var(--montserrat);
+	font-weight: 300;
 	font-size: 17px;
 	display: flex;
 	justify-content: center;
@@ -66,7 +50,8 @@
 
 .new {
 	font-size: 35px;
-	font-family: Montserrat Bold;
+	font-family: var(--montserrat);
+	font-weight: 700;
 	color: #fff;
 	padding-top: 30px;
 }
@@ -74,7 +59,8 @@
 .old {
 	text-decoration: line-through;
 	font-size: 20px;
-	font-family: Montserrat;
+	font-family: var(--montserrat);
+	font-weight: 500;
 	color: #888888;
 }
 
@@ -88,7 +74,8 @@
 .way {
 	width: 100%; height: 85px;
 	color: #fff;
-    font-family: Montserrat Light;
+	font-family: var(--montserrat);
+	font-weight: 300;
     font-size: 13px;
 	display: flex;
 	flex-direction: column;
@@ -101,7 +88,8 @@
 .power {
 	width: 100%; height: 105px;
     color: #fff;
-    font-family: Montserrat Light;
+	font-family: var(--montserrat);
+	font-weight: 300;
     font-size: 13px;
     display: flex;
 	flex-direction: column;
@@ -113,7 +101,8 @@
 .cont {
 	width: 100%; height: 55px;
     color: #fff;
-    font-family: Montserrat Light;
+	font-family: var(--montserrat);
+	font-weight: 300;
     font-size: 13px;
     display: flex;
     justify-content: center;
@@ -140,7 +129,8 @@
 	width: 73px; height: 31px;
 	background-color: #EAA73E;
     color: #16295d;
-    font-family: Montserrat bold;
+	font-family: var(--montserrat);
+	font-weight: 700;
     font-size: 11px;
     display: flex;
     justify-content: center;
@@ -150,7 +140,8 @@
 
 .grams {
 	width: 100%; height: 36px;
-    font-family: Montserrat light;
+	font-family: var(--montserrat);
+	font-weight: 300;
     font-size: 13px;
     display: flex;
     justify-content: center;
@@ -180,7 +171,8 @@
 	padding-top: 5px;
 	height: 175px;
     color: #fff;
-    font-family: Montserrat Light;
+	font-family: var(--montserrat);
+	font-weight: 300;
     font-size: 13px;
     display: flex;
 	flex-direction: column;
@@ -219,7 +211,8 @@
 		align-items: center;
 		position: absolute; bottom: -20px; right: 20%;
 		background-color: #266665;
-		font-family: Montserrat bold;
+		font-family: var(--montserrat);
+		font-weight: 700;
 		font-size: 14px;
 		text-decoration: none;
 		color: #fff;

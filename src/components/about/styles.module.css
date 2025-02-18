@@ -38,12 +38,14 @@
 }
 
 .title {
-	font-family: Montserrat Alternates ExtraLight;
+	font-family: var(--montserrat);
+	font-weight: 300;
 	text-align: center;
 }
 
 .paragraph {
-	font-family: Montserrat Alternates Regular;
+	font-family: var(--montserrat);
+	font-weight: 300;
 }
 
 
