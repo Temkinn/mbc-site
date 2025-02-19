@@ -11,7 +11,7 @@ export const montserratAlternates = Montserrat_Alternates({
 export const metadata = {
   title: "MBC Кофейня",
   description: "Кофейня на каждый день",
-  keywords: ["кофе", "MBC", "красивый", "вкусный", "отличный", "чай"]
+  keywords: ["кофе", "MBC", "красивый", "вкусный", "отличный", "чай", "Кофейня", "тепло", "бариста", "отзывы", "новости", "выбор кофе"]
 };
 
 export default function RootLayout({ children }) {
