@@ -17,6 +17,10 @@
 	margin-bottom: 60px;
 }
 
+.main a {
+	-webkit-tap-highlight-color: transparent;
+}
+
 .title {
 	font-family: var(--montserrat);
 	font-weight: 700;
