@@ -6,8 +6,9 @@
 }
 
 $border-radius: 20px;
-$highlight-color: #000;
+$highlight-color: #000000;
 $transformation: translate(var(--x), -30px);
+$shadow: var(--x-shadow) 15px 10px 0px rgba(0, 0, 0, 0.3);
 
 .container {
 	height: 70%; aspect-ratio: 1/1;
@@ -15,6 +16,7 @@ $transformation: translate(var(--x), -30px);
 	display: block;
 	transition: all .4s ease-in-out;
 	border-radius: $border-radius;
+
 
 	&:hover {
 		.desc {
@@ -25,6 +27,9 @@ $transformation: translate(var(--x), -30px);
 			display: none;
         }
 		transform: $transformation;
+		-webkit-box-shadow: $shadow;
+		-moz-box-shadow: $shadow;
+		box-shadow: $shadow;
 	}
 }
 
@@ -105,6 +110,7 @@ $transformation: translate(var(--x), -30px);
 	.item {
 		height: 500px;
 		--x: -30px;
+		--x-shadow: 10px;
 	}
 }
 
@@ -112,6 +118,7 @@ $transformation: translate(var(--x), -30px);
 	.item {
 		height: 500px;
 		--x: -30px;
+		--x-shadow: 10px;
 	}
 }
 
@@ -119,7 +126,8 @@ $transformation: translate(var(--x), -30px);
 @media screen and (width <= 500px) {
 	.item {
 		height: 400px;
-		--x: 	0px;
+		--x: 0px;
+		--x-shadow: 0px;
 	}
 }
 
