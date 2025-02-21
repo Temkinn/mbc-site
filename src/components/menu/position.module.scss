@@ -18,7 +18,7 @@ $shadow: var(--x-shadow) 15px 10px 0px rgba(0, 0, 0, 0.3);
 	border-radius: $border-radius;
 
 
-	&:hover {
+	&:active {
 		.desc {
             display: flex;
 			opacity: 1;
@@ -30,6 +30,24 @@ $shadow: var(--x-shadow) 15px 10px 0px rgba(0, 0, 0, 0.3);
 		-webkit-box-shadow: $shadow;
 		-moz-box-shadow: $shadow;
 		box-shadow: $shadow;
+	}
+
+	@media (hover: hover) {
+		&:hover {
+			.desc {
+				display: flex;
+				opacity: 1;
+			}
+		
+			.photo {
+				display: none;
+			}
+		
+			transform: $transformation;
+			-webkit-box-shadow: $shadow;
+			-moz-box-shadow: $shadow;
+			box-shadow: $shadow;
+		}
 	}
 }
 
@@ -70,7 +88,6 @@ $shadow: var(--x-shadow) 15px 10px 0px rgba(0, 0, 0, 0.3);
 	font-family: var(--montserrat);
 	background-color: #DFE4F0;
 
-
 	p {
 		font-weight: 500;
 		padding: 12px 12px;
@@ -79,6 +96,7 @@ $shadow: var(--x-shadow) 15px 10px 0px rgba(0, 0, 0, 0.3);
 	.kpfc {
 		text-align: center;
 		font-weight: 600;
+		white-space: pre-line
 	}
 }
 
@@ -96,14 +114,14 @@ $shadow: var(--x-shadow) 15px 10px 0px rgba(0, 0, 0, 0.3);
 
 	h2 {
 		font-weight: 600;
-		font-size: 22px;
 	}
 	
     p {
         font-weight: 400;
-		font-size: 20px;
     }
 }
+
+
 
 
 @media screen and (width >= 1024px) {
@@ -111,6 +129,11 @@ $shadow: var(--x-shadow) 15px 10px 0px rgba(0, 0, 0, 0.3);
 		height: 500px;
 		--x: -30px;
 		--x-shadow: 10px;
+	}
+	.desc {
+		p {
+			font-size: 18px;
+		}
 	}
 }
 
@@ -120,6 +143,11 @@ $shadow: var(--x-shadow) 15px 10px 0px rgba(0, 0, 0, 0.3);
 		--x: -30px;
 		--x-shadow: 10px;
 	}
+	.desc {
+		p {
+			font-size: 18px;
+		}
+	}
 }
 
 
@@ -128,6 +156,11 @@ $shadow: var(--x-shadow) 15px 10px 0px rgba(0, 0, 0, 0.3);
 		height: 400px;
 		--x: 0px;
 		--x-shadow: 0px;
+	}
+	.desc {
+		p {
+			font-size: 14px;
+		}
 	}
 }
 
