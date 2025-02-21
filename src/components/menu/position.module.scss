@@ -87,6 +87,7 @@ $shadow: var(--x-shadow) 15px 10px 0px rgba(0, 0, 0, 0.3);
 	border: $highlight-color 2px solid;
 	font-family: var(--montserrat);
 	background-color: #DFE4F0;
+	user-select: none;
 
 	p {
 		font-weight: 500;
