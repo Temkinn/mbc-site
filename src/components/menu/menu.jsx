@@ -4,9 +4,12 @@ import items from "./items/items";
 import Link from "next/link";
 
 export default function Menu() {
-  // function mapping(unit) {
-  // 	unit
-  // }
+  const goToUnit = (name) => {
+    const unit = document.querySelector(`#${name}`);
+    if (unit) {
+      unit.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <div id="menu" className={styles.main}>
@@ -14,44 +17,51 @@ export default function Menu() {
       <nav className={styles.links}>
         <div className={styles.up}>
           <div className={styles.linkContainer}>
-            <Link href="#black" className={styles.link}>
+            <button onClick={() => goToUnit("black")} className={styles.link}>
               Black
-            </Link>
+            </button>
           </div>
           <div className={styles.linkContainer}>
-            <Link href="#milk" className={styles.link}>
+            <button onClick={() => goToUnit("milk")} className={styles.link}>
               Milk
-            </Link>
+            </button>
           </div>
           <div className={styles.linkContainer}>
-            <Link href="#other" className={styles.link}>
+            <button onClick={() => goToUnit("other")} className={styles.link}>
               other
-            </Link>
+            </button>
           </div>
         </div>
         <div className={styles.down}>
           <div className={styles.linkContainer}>
-            <Link href="#tea" className={styles.link}>
+            <button onClick={() => goToUnit("tea")} className={styles.link}>
               tea
-            </Link>
+            </button>
           </div>
           <div className={styles.linkContainer}>
-            <Link href="#breakfast" className={styles.link}>
+            <button
+              onClick={() => goToUnit("breakfast")}
+              className={styles.link}
+            >
               завтраки
-            </Link>
+            </button>
           </div>
           <div className={styles.linkContainer}>
-            <Link href="#sweet" className={styles.link}>
+            <button onClick={() => goToUnit("sweet")} className={styles.link}>
               сладкое
-            </Link>
+            </button>
           </div>
         </div>
       </nav>
       <div className={styles.menu}>
         <div className={styles.unit}>
-          <Link href="#menu" className={styles.unitTitle} id="black">
+          <button
+            onClick={() => goToUnit("menu")}
+            className={styles.unitTitle}
+            id="black"
+          >
             Black
-          </Link>
+          </button>
           <h3 className={styles.unitSubtitle}>
             Наведите на позицию, чтобы посмотреть описание
           </h3>
@@ -73,9 +83,13 @@ export default function Menu() {
         </div>
 
         <div className={styles.unit}>
-          <Link href="#menu" className={styles.unitTitle} id="milk">
+          <button
+            onClick={() => goToUnit("menu")}
+            className={styles.unitTitle}
+            id="milk"
+          >
             Milk
-          </Link>
+          </button>
           <div className={styles.items}>
             {items.milk.map((item) => {
               return (
@@ -94,9 +108,13 @@ export default function Menu() {
         </div>
 
         <div className={styles.unit}>
-          <Link href="#menu" className={styles.unitTitle} id="other">
+          <button
+            onClick={() => goToUnit("menu")}
+            className={styles.unitTitle}
+            id="other"
+          >
             Other
-          </Link>
+          </button>
           <div className={styles.items}>
             {items.other.map((item) => {
               return (
@@ -115,9 +133,13 @@ export default function Menu() {
         </div>
 
         <div className={styles.unit}>
-          <Link href="#menu" className={styles.unitTitle} id="tea">
+          <button
+            onClick={() => goToUnit("menu")}
+            className={styles.unitTitle}
+            id="tea"
+          >
             Tea
-          </Link>
+          </button>
           <div className={styles.items}>
             {items.tea.map((item) => {
               return (
@@ -136,9 +158,13 @@ export default function Menu() {
         </div>
 
         <div className={styles.unit}>
-          <Link href="#menu" className={styles.unitTitle} id="breakfast">
+          <button
+            onClick={() => goToUnit("menu")}
+            className={styles.unitTitle}
+            id="breakfast"
+          >
             завтраки целый день
-          </Link>
+          </button>
           <div className={styles.items}>
             {items.breakfast.map((item) => {
               return (
@@ -157,9 +183,13 @@ export default function Menu() {
         </div>
 
         <div className={styles.unit}>
-          <Link href="#menu" className={styles.unitTitle} id="sweet">
+          <button
+            onClick={() => goToUnit("menu")}
+            className={styles.unitTitle}
+            id="sweet"
+          >
             Сладкое
-          </Link>
+          </button>
           <div className={styles.items}>
             {items.sweet.map((item) => {
               return (

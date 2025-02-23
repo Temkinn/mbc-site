@@ -42,6 +42,7 @@
     text-decoration: none; text-transform: uppercase;
     transition: all .3s;
 	scroll-behavior: smooth;
+	background-color: transparent;
 }
 
 .link:hover {
@@ -68,6 +69,8 @@
 	text-wrap: balance;
 	outline: none;
 	border: none;
+	user-select: none;
+	background-color: transparent;
 }
 
 .unitTitle:active{
@@ -101,7 +104,7 @@
 		margin-bottom: 60px;
 	}
 	.link {
-		height: 38px; width: 180px;
+		height: 46px; width: 180px;
 		font-size: 14px;
 	}
 	.links div{
@@ -120,7 +123,7 @@
 
 @media screen and (width < 1024px) {
 	.link {
-		height: 38px; width: 180px;
+		height: 46px; width: 180px;
 		font-size: 14px;
 	}
 	.links div{
@@ -139,7 +142,7 @@
 
 @media screen and (width < 768px) {
 	.title {
-		font-size: 30px;
+		font-size: 38px;
 		margin-bottom: 60px;
 	}
 	.link {
@@ -175,7 +178,7 @@
 
 @media screen and (width <= 375px) {
 	.link {
-		height: 34px; width: 85px;
+		height: 42px; width: 85px;
 		font-size: 12px;
 	}
 	.unitSubtitle {

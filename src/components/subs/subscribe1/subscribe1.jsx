@@ -17,14 +17,14 @@ export default function Subscribe1({white, title, price, old}){
 			<div className={styles.power}>
 					Степень обжаривания
 				<div className={styles.cont}>
-					<p className={styles.left}>
+					<div className={styles.left}>
 						светлая
 						<p className={styles.espresso}>FILTER</p>
-					</p>
-					<p className={styles.right}>
+					</div>
+					<div className={styles.right}>
 						светлая
 					<p className={styles.espresso}>FILTER</p>
-					</p>
+					</div>
 				</div>
 			</div>
 			<div className={styles.grams}>
