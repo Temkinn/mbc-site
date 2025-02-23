@@ -1,37 +1,35 @@
 import styles from "./styles.module.css"
-import first from "@/../public/first.jpg"
 
 
 export default function Subscribe1({white, title, price, old}){
 	return(
 		<div className={styles.container}>
-			<div className={styles.white}>{white}</div>
-			<div className={styles.title}>{title}</div>
+			<h2 className={styles.white}>{white}</h2>
+			<h4 className={styles.title}>{title}</h4>
 			<div className={styles.price}>
-				<div className={styles.new}>{price}</div>
-				<div className={styles.old}>{old}</div>
+				<h3 className={styles.new}>{price}</h3>
+				<h3 className={styles.old}>{old}</h3>
 			</div>
-			<div className={styles.way}>
+			<h6 className={styles.way}>
 				Способ приготовления
-				<div className={styles.image}>
-				</div>
-			</div>
+				<div className={styles.image} />
+			</h6>
 			<div className={styles.power}>
 					Степень обжаривания
 				<div className={styles.cont}>
-					<div className={styles.left}>
+					<p className={styles.left}>
 						светлая
-						<div className={styles.espresso}>FILTER</div>
-					</div>
-					<div className={styles.right}>
+						<p className={styles.espresso}>FILTER</p>
+					</p>
+					<p className={styles.right}>
 						светлая
-					<div className={styles.espresso}>FILTER</div>
-					</div>
+					<p className={styles.espresso}>FILTER</p>
+					</p>
 				</div>
 			</div>
 			<div className={styles.grams}>
-				<div className={styles.left2}>250 гр.</div>
-				<div className={styles.right2}>250 гр.</div>
+				<p className={styles.left2}>250 гр.</p>
+				<p className={styles.right2}>250 гр.</p>
 			</div>
 			<div className={styles.facts}>
 				<div className={styles.fact}>

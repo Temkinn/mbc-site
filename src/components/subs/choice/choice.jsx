@@ -10,12 +10,12 @@ function choose(){
 	return(
 		<div className={styles.container}>
 			<div className={styles.inner}>
-				<div className={styles.title}>Все Просто!</div>
-				<div className={styles.subtitle}>Осталось только выбрать</div>
+				<h2 className={styles.title}>Все Просто!</h2>
+				<h3 className={styles.subtitle}>Осталось только выбрать</h3>
 			</div>
-				<div
+				<button
 				onClick={() => choose()}
-				className={styles.button}>Выбрать тариф</div>
+				className={styles.button}>Выбрать тариф</button>
 				<div className={styles.dl}>
 					<div className={styles.line} />
 					<div className={styles.dot} />

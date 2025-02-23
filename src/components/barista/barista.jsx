@@ -10,8 +10,8 @@ import Alena from "./photos/Alena.jpg"
 export default function Barista(){
 	return(
         <div className={styles.container}>
-			<div className={styles.title}>Наши бариста</div>
-			<div className={styles.subtitle}>Лучшие истории рассказывают за чашечкой кофе</div>
+			<h2 className={styles.title}>Наши бариста</h2>
+			<h3 className={styles.subtitle}>Лучшие истории рассказывают за чашечкой кофе</h3>
 			<div className={styles.people}>
 				<Person name="Илья Гринкевич" photo={Ilya} link="https://www.instagram.com/ilyagrink/?igsh=MXBtZTkzZWE1NmZkNw%3D%3D#"/>
 				<Person name="Антон Быстрицкий" photo={Anton} link="https://www.instagram.com/tohabystricki/?igsh=aXZueGluMW5oem85"/>

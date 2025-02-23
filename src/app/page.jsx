@@ -7,11 +7,13 @@ import About from "@/components/about/about"
 import Slider from "@/components/slider/slider";
 import Menu from "@/components/menu/menu";
 
+import Navigation from "@/components/subs/navigation/navigation";
 import SubsIntro from "@/components/subs/intro/intro";
 import SubsWhy from "@/components/subs/why/why";
 import Advantages from "@/components/subs/advantages/advantages";
 import SubsChoice from "@/components/subs/choice/choice";
 import Subs from "@/components/subs/subs/subs";
+import Loyalty from "@/components/subs/loyalty/Loyalty";
 
 import Barista from "@/components/barista/barista";
 import Videos from "@/components/videos/videos";
@@ -29,11 +31,13 @@ export default function Home() {
       <Slider />
       <Menu />
 
+      {/* <Navigation />  */}
       <SubsIntro /> 
       <SubsWhy />
       {/* <Advantages /> */}
       <SubsChoice />
       <Subs />
+      {/* <Loyalty /> */}
 
       <Barista />
       <Videos />

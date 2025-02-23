@@ -6,39 +6,39 @@ export default function SubsWhy(){
 		<div className={styles.container}>
 			<div className={styles.reasonContainer}>
 				<div id='reason' className={styles.reason1}>
-					<div className={styles.title}>
+					<h3 className={styles.title}>
 					Вы экономume деньги
-					</div>
-					<div className={styles.subtitle}>
+					</h3>
+					<p className={styles.subtitle}>
 					По подписке кофе дешевле,
 					а значиm прияmнее
-					</div>
+					</p>
 				</div>
 				<div id='reason' className={styles.reason2}>
-					<div className={styles.title}>
+					<h3 className={styles.title}>
 					Мы экономим ваше время
-					</div>
-					<div className={styles.subtitle}>
+					</h3>
+					<p className={styles.subtitle}>
 					Выбираем под ваш вкус, пока вы заняты любимым делом
-					</div>
+					</p>
 				</div>
 				<div id='reason' className={styles.reason3}>
-					<div className={styles.title}>
+					<h3 className={styles.title}>
 					Разнообразим вкусовой
 					опыт
-					</div>
-					<div className={styles.subtitle}>
+					</h3>
+					<p className={styles.subtitle}>
 					Ежемесячно новые лоты, разные
 					страны
-					</div>
+					</p>
 				</div>
 				<div id='reason' className={styles.reason4}>
-					<div className={styles.title}>
+					<h3 className={styles.title}>
 					Стираем границы
-					</div>
-					<div className={styles.subtitle}>
+					</h3>
+					<p className={styles.subtitle}>
 					Кофе со всего мира у вас дома
-					</div>
+					</p>
 				</div>
 			</div>
 			<div className={styles.dl}>

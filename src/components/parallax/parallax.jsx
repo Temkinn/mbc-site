@@ -1,17 +1,21 @@
+'use client'
 import styles from "./styles.module.css";
 import Image from "next/image";
 import Link from "next/link"
 
 export default function Parallax() {
+  const goToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <>
-      <div className={styles.parallax}></div>
-      <a href="#" className={styles.up}>
+      <div className={styles.parallax} />
+      <button onClick={goToTop} className={styles.up}>
         <Image src={require("./arrow.png")} alt="up" fill />
-      </a>
+      </button>
       <div className={styles.contacts}>
         {/* viber */}
-        <a
+        <Link
           target="_blank"
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           className={styles.link}
@@ -60,7 +64,7 @@ export default function Parallax() {
               />
             </g>
           </svg>
-        </a>
+        </Link>
         {/* watsapp */}
         <a
           target="_blank"

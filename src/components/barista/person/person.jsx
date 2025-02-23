@@ -11,8 +11,8 @@ export default function Person({name, photo, link}){
 			</div>
 			<div className={styles.info}>
 				<div className={styles.nickname}>
-					<div className={styles.name}>{name}</div>
-					<div className={styles.bar}>Бариста</div>
+					<h4 className={styles.name}>{name}</h4>
+					<p className={styles.bar}>Бариста</p>
 				</div>
                     <Link href={link} className={styles.link} target="_blank">
 						<Image src={linkIcon} loading='eager' alt="Link" width={24} height={24} />

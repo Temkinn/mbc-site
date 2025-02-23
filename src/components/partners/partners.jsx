@@ -13,7 +13,7 @@ import CoffeeState from './photos/coffeestate.jpg'
 export default function Partners(){
 	return(
         <div className={styles.container}>
-			<div className={styles.title}>Наши партнеры и поставщики</div>
+			<h2 className={styles.title}>Наши партнеры и поставщики</h2>
 			<div className={styles.companies}>
 				<Company name="Tasty Coffee" photo={TC} ratio={1} link="https://www.youtube.com/@tastycoffeeroasters"/>
 				<Company name="THE WELDER CATHERINE" photo={Welder} ratio={1} link="https://www.youtube.com/@TheWelderCatherine"/>
