@@ -21,7 +21,7 @@ export default function Welcome() {
 				<div onClick={() => goTo("adress")} className={styles.button2}>Где мы?</div>
 				<div onClick={
 					() => goTo("subscribe")
-				} className={styles.button3}>Подписка</div>
+				} className={styles.button3}>Лояльность</div>
 			</nav>
         </div>
     )
