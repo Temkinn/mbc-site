@@ -6,8 +6,8 @@ import Friend from './friend/Friend';
 export default function Loyalty({}) {
   return (
     <div id="loyalty" className={styles.container}>
-        <Regular />
         <Friend />
+        <Regular />
     </div>
   );
 }
