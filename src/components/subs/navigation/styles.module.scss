@@ -10,25 +10,22 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 100px;
 
     *{
         font-family: var(--montserrat);
     }
 
     h1 {
-        max-width: 60%;
-        font-size: 48px;
+        max-width: 70%;
         font-weight: 700;
         color: #ffffff;
+        text-align: center;
     }
 
     nav {
         display: flex;
-        gap: 200px;
-
+        
         button {
-            width: 210px; height: 60px;
             border: 3px solid #EAA73E;
             border-radius: 50px;
             font-size: 15px;
@@ -42,6 +39,114 @@
             &:hover {
                 color: #000;
                 background-color: #EAA73E;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    /* styles for screens larger than 1024px */
+    .container {
+        gap: 70px;
+        h1 {
+            font-size: 72px;
+        }
+        nav {
+            gap: 300px;
+            button {
+                width: 210px;
+                height: 60px;
+                font-size: 15px;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 1024px) {
+
+    /* styles for screens smaller than 1024px */
+    .container {
+        gap: 70px;
+
+        h1 {
+            font-size: 66px;
+        }
+
+        nav {
+            gap: 250px;
+
+            button {
+                width: 210px;
+                height: 60px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* styles for screens smaller than 768px */
+    .container {
+        gap: 70px;
+
+        h1 {
+            font-size: 52px;
+        }
+
+        nav {
+            gap: 150px;
+
+            button {
+                width: 140px;
+                height: 40px;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+
+    /* styles for screens smaller than 768px */
+    .container {
+        gap: 70px;
+
+        h1 {
+            font-size: 40px;
+        }
+
+        nav {
+            gap: 15vw;
+
+            button {
+                width: 140px;
+                height: 40px;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+
+    /* styles for screens smaller than 768px */
+    .container {
+        gap: 70px;
+
+        h1 {
+            font-size: 28px;
+        }
+
+        nav {
+            gap: 10vh;
+            flex-direction: column;
+
+            button {
+                width: 160px;
+                height: 46px;
+                font-size: 12px;
             }
         }
     }

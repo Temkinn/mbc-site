@@ -23,7 +23,8 @@
 	background-color: #000;
 	border: 4px #266665 solid;
     border-radius: 50px;
-    font-family: Montserrat Alternates Bold;
+    font-family: var(--montserrat);
+	font-weight: 700;
     font-size: 14px;
     color: #ffffff;
     padding: 15px 32px;

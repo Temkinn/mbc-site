@@ -31,13 +31,13 @@ export default function Home() {
       <Slider />
       <Menu />
 
-      {/* <Navigation />  */}
+      <Navigation /> 
       <SubsIntro /> 
       <SubsWhy />
       {/* <Advantages /> */}
       <SubsChoice />
       <Subs />
-      {/* <Loyalty /> */}
+      <Loyalty />
 
       <Barista />
       <Videos />

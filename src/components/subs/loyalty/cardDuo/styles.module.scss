@@ -1,0 +1,52 @@
+.container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+    div {
+        position: absolute;
+        height: 100%;
+        aspect-ratio: 521 / 320;
+        --width: calc(100% / 521 * 320);
+        user-select: none;
+    }
+    .front {
+        z-index: 2;
+        top: 40px;
+        left: calc(50vw - var(--width) / 2 );
+    }
+    .back {
+        z-index: 1;
+        top: 50px;
+        right: calc(50vw - var(--width) / 2);
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        height: 280px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        height: 160px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        height: 140px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        height: 100px;
+    }
+}
