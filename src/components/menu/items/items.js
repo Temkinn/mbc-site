@@ -355,7 +355,7 @@ const items = {
     {
       name: "Кекс Банановый",
       g: "120 г",
-      price: "5,5",
+      price: "6",
       description:
         "Сочный пряный кекс с грецким орехом и бананом. Рождественская история для больших и маленьких.",
       photo: photos.sweet.banana_keks,
@@ -364,7 +364,7 @@ const items = {
     {
       name: "Кекс Лимонный",
       g: "120 г",
-      price: "5,5",
+      price: "6",
       description:
         "Влажный, ароматный, цитрусовый. Идеален для любителей кисло-сладких историй.",
       photo: photos.sweet.limon_keks,
