@@ -2,8 +2,8 @@ import styles from './styles.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import Inst from './../../../public/instagram.png'
-import youtube from './../../../public/youtube.png'
+import Instagram from '../svgElements/Instagram/Instagram'
+import Youtube from '../svgElements/youtube/Youtube'
 
 export default function Footer(){
 	return (
@@ -17,10 +17,10 @@ export default function Footer(){
 				<p className={styles.line}>Выходные: 9:00 - 22:00</p>
 				<div className={styles.links}>
 					<Link href='https://www.youtube.com/@manualbrewcoffee?si=UjnzfuuAdH67HHZ0' target='_blank' className={styles.instagram}>
-						<Image src={youtube} loading='eager' width={40} height={40} alt='youtube'/>
+						<Youtube size={40} />
 					</Link>
 					<Link href='https://www.instagram.com/mbc.culture/?igsh=cnk5N3RiNjk3aXRv#' target='_blank' className={styles.youtube}>
-						<Image src={Inst} loading='eager' width={40} height={40} alt='instagram'/>
+						<Instagram size={40} />
 					</Link>
 				</div>
 			</div>

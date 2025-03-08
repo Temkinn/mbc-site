@@ -7,13 +7,11 @@
 }
 
 .title {
-	font-family: var(--montserrat);
 	font-weight: 300;
 	text-align: center;
 }
 
 .paragraph {
-	font-family: var(--montserrat);
 	font-weight: 300;
 }
 
@@ -33,20 +31,6 @@
 		line-height: 1.55;
 		margin-bottom: 30px;
 	}
-
-	.bread {
-		z-index: -1;
-		position: absolute;
-		left: 10px;
-		top: calc(100vh + 200px)
-	}
-
-	.croissant {
-		z-index: -1;
-		position: absolute;
-		right: 20px;
-		top: calc(100vh + 550px)
-	}
 }
 
 @media screen and (max-width: 1024px) {
@@ -63,20 +47,6 @@
 		font-size: 20px;
 		line-height: 1.55;
 		margin-bottom: 30px;
-	}
-
-	.bread {
-		z-index: -1;
-		position: absolute;
-		left: 10px;
-		top: calc(100vh + 200px)
-	}
-
-	.croissant {
-		z-index: -1;
-		position: absolute;
-		right: 20px;
-		top: calc(100vh + 550px)
 	}
 }
 
@@ -95,20 +65,6 @@
 		line-height: 1.55;
 		margin-bottom: 30px;
 	}
-
-	.bread {
-		z-index: -1;
-		position: absolute;
-		left: 10px;
-		top: calc(100vh + 50px)
-	}
-
-	.croissant {
-		z-index: -1;
-		position: absolute;
-		right: 20px;
-		top: calc(100vh + 550px)
-	}
 }
 
 @media screen and (max-width: 500px) {
@@ -125,21 +81,6 @@
 		font-size: 24px;
 		line-height: 1.55;
 		margin-bottom: 30px;
-	}
-
-	.bread {
-		display: none;
-		z-index: -1;
-		position: absolute;
-		left: -4px;
-		top: calc(100vh + 61px)
-	}
-
-	.croissant {
-		z-index: -1;
-		position: absolute;
-		right: 0px;
-		top: calc(100vh + 774px)
 	}
 }
 
@@ -158,21 +99,6 @@
 		line-height: 1.55;
 		margin-bottom: 30px;
 	}
-
-	.bread {
-		display: none;
-		z-index: -1;
-		position: absolute;
-		left: -4px;
-		top: calc(100vh + 61px)
-	}
-
-	.croissant {
-		z-index: -1;
-		position: absolute;
-		right: 0px;
-		top: calc(100vh + 774px)
-	}
 }
 
 @media screen and (max-width: 320px) {
@@ -189,20 +115,5 @@
 		font-size: 20px;
 		line-height: 1.55;
 		margin-bottom: 30px;
-	}
-
-	.bread {
-		display: none;
-		z-index: -1;
-		position: absolute;
-		left: -4px;
-		top: calc(100vh + 61px)
-	}
-
-	.croissant {
-		z-index: -1;
-		position: absolute;
-		right: 0px;
-		top: calc(100vh + 654px)
 	}
 }

@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 import Image from 'next/image'
-import linkIcon from '@/../public/instagram.png'
+import Instagram from '@/components/svgElements/Instagram/Instagram'
 import Link from 'next/link'
 
 export default function Person({name, photo, link}){
@@ -15,7 +15,7 @@ export default function Person({name, photo, link}){
 					<p className={styles.bar}>Бариста</p>
 				</div>
                     <Link href={link} className={styles.link} target="_blank">
-						<Image src={linkIcon} loading='eager' alt="Link" width={24} height={24} />
+						<Instagram size={24} />
 					</Link>
 			</div>
         </div>

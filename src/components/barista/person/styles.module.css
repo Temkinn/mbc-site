@@ -25,14 +25,12 @@
 
 .nickname {
 	height: 100%; width: 100%;
-	font-family: var(--montserrat);
 	font-weight: 300;
     font-size: 12px;
     color: #7a7a7a;
 }
 
 .name {
-	font-family: var(--montserrat);
 	font-weight: 600;
     color: #fff;
 	margin-bottom: 14px;
@@ -43,7 +41,6 @@
 	display: flex; align-items: center; gap: 10px;
 	background-color: #fff;
 	color: black;
-	font-family: var(--montserrat);
 	font-weight: 500;
 	font-size: 14px;
 	text-decoration: none;
