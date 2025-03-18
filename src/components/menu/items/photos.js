@@ -1,4 +1,3 @@
-
 // black
 import americano from "./photos/black/americano.jpg"
 import el_americano from "./photos/black/el_americano.jpg"
@@ -28,6 +27,14 @@ import matcha_orange from "./photos/other/matcha_orange.jpg"
 import matcha_raf from "./photos/other/matcha_raf.jpg"
 import matcha_latte from "./photos/other/matcha_latte.jpg"
 import glintvein_ba from "./photos/other/glintvein_ba.jpg"
+
+//special
+import asian_tea from './photos/special/asian_tea.jpg'
+import dubai_americano from "./photos/special/dubai_americano.jpg";
+import matcha_sakura from "./photos/special/matcha_sakura.jpg";
+import mint_berry from "./photos/special/mint_berry.jpg";
+import spanish_latte from "./photos/special/spanish_latte.jpg";
+import sun_aloe from "./photos/special/sun_aloe.jpg";
 
 // tea
 import raspb from "./photos/tea/raspb.jpg"
@@ -87,6 +94,14 @@ const photos = {
     matcha_latte: matcha_latte,
     glintvein_ba: glintvein_ba,
   }, 
+  special: {
+    asian_tea: asian_tea,
+    dubai_americano: dubai_americano,
+    matcha_sakura: matcha_sakura,
+    mint_berry: mint_berry,
+    spanish_latte: spanish_latte,
+    sun_aloe: sun_aloe,
+  },
   tea: {
     raspb: raspb,
     tea_mint: tea_mint,

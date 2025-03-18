@@ -12,7 +12,6 @@
 }
 
 .title {
-	font-family: var(--montserrat);
 	font-weight: 700;
 }
 
@@ -37,7 +36,6 @@
 	border-radius: 30px;
 	color: #000;
 	display: flex; align-items: center; justify-content: center;
-	font-family: var(--montserrat);
 	font-weight: 700;
     text-decoration: none; text-transform: uppercase;
     transition: all .3s;
@@ -58,7 +56,6 @@
 }
 
 .unitTitle {
-	font-family: var(--montserrat);
 	font-weight: 700;
 	max-width: 80vw;
     margin-bottom: 35px;
@@ -85,7 +82,6 @@
 }
 
 .unitSubtitle {
-	font-family: var(--montserrat);
 	font-weight: 700;
 	text-align: center;
     margin-bottom: 60px;
@@ -98,7 +94,7 @@
     gap: 60px;
 }
 
-@media screen and (width >= 1024px) {
+@media screen and (width > 1024px) {
 	.title {
 		font-size: 38px;
 		margin-bottom: 60px;
@@ -121,7 +117,11 @@
 	}
 }
 
-@media screen and (width < 1024px) {
+@media screen and (width <= 1024px) {
+	.title {
+		font-size: 38px;
+		margin-bottom: 40px;
+	}
 	.link {
 		height: 46px; width: 180px;
 		font-size: 14px;
@@ -137,10 +137,39 @@
     }
 	.items {
 		width: 86%;
+		justify-content: center;
 	}
 }
 
-@media screen and (width < 768px) {
+@media screen and (width <= 896px) {
+	.link {
+		height: 40px;
+		width: 140px;
+		font-size: 14px;
+	}
+
+	.links div {
+		gap: 30px;
+	}
+
+	.unitTitle {
+		font-size: 38px;
+	}
+
+	.unitSubtitle {
+		font-size: 28px;
+	}
+
+	.items {
+		width: 86%;
+	}
+}
+
+@media screen and (width <= 768px) {
+	.title {
+		font-size: 38px;
+		margin-bottom: 40px;
+	}
 	.title {
 		font-size: 38px;
 		margin-bottom: 60px;
@@ -165,10 +194,11 @@
 		min-width: 60%;
 	}
 	.link {
-		height: 38px; width: 100px;
+		height: 38px; width: 90px;
+		font-size: 12px;
 	}
 	.links div{
-		gap: 10px;
+		gap: 8px;
 	}
 	.items {
 		width: 100%;
@@ -178,11 +208,10 @@
 
 @media screen and (width <= 375px) {
 	.link {
-		height: 42px; width: 85px;
-		font-size: 12px;
+		height: 34px; width: 70px;
+		font-size: 10px;
 	}
 	.unitSubtitle {
 		font-size: 14px;
     }
-
 }

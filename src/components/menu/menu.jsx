@@ -31,6 +31,11 @@ export default function Menu() {
               other
             </button>
           </div>
+          <div className={styles.linkContainer}>
+            <button onClick={() => goToUnit("special")} className={styles.link}>
+              special
+            </button>
+          </div>
         </div>
         <div className={styles.down}>
           <div className={styles.linkContainer}>
@@ -117,6 +122,31 @@ export default function Menu() {
           </button>
           <div className={styles.items}>
             {items.other.map((item) => {
+              return (
+                <Position
+                  key={item.name}
+                  name={item.name}
+                  photo={item.photo}
+                  amount={item.g}
+                  price={item.price}
+                  description={item.description}
+                  kpfc={item.kpfc}
+                />
+              );
+            })}
+          </div>
+        </div>
+
+        <div className={styles.unit}>
+          <button
+            onClick={() => goToUnit("menu")}
+            className={styles.unitTitle}
+            id="special"
+          >
+            Special
+          </button>
+          <div className={styles.items}>
+            {items.special.map((item) => {
               return (
                 <Position
                   key={item.name}
