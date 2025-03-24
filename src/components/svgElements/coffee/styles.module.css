@@ -1,0 +1,25 @@
+.coffee {
+    margin-bottom: 40px;
+}
+
+@media screen and (width >=1024px) {
+    .coffee {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media screen and (width < 1024px) {
+    .coffee {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+
+@media screen and (width < 375px) {
+    .coffee {
+        width: 300px;
+        height: 215px;
+    }
+}

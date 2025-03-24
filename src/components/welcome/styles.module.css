@@ -75,11 +75,6 @@
     color: #000;
 }
 @media screen and (min-width: 1024px) {
-	.container {
-		background-position: 0 -320px;
-		background-image: url("./../../../public/welcome_background.jpg");
-		background-repeat: no-repeat;
-	}
 	.titles {
         padding-left: 8vw;
 		width: 430px;
@@ -108,9 +103,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-	.container {
-		background-image: url("./../../../public/welcome_background.jpg");
-	}
 	.titles {
 		width: 45vw;
 		padding-left: 10vw;
@@ -167,7 +159,6 @@
 @media screen and (max-width: 500px) {
 	.container {
 		width: 100vw;
-		background-image: url("./../../../public/welcome2_background.jpg");
 		display: flex;
 		flex-direction: column;
 		align-items: center;

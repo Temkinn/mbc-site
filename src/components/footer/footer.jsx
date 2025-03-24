@@ -2,8 +2,8 @@ import styles from './styles.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import Instagram from '../svgElements/Instagram/Instagram'
-import Youtube from '../svgElements/youtube/Youtube'
+import Instagram from '../svgElements/icons/Instagram'
+import Youtube from '../svgElements/icons/Youtube'
 
 export default function Footer(){
 	return (

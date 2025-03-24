@@ -1,5 +1,6 @@
 import styles from './introstyles.module.css'
 
+import Coffee from '@/components/svgElements/coffee/Coffee'
 
 export default function SubsIntro(){
 	return(
@@ -7,7 +8,7 @@ export default function SubsIntro(){
             <h2 className={styles.mainTitle}>Подписка для розничных клиентов</h2>
             <div className={styles.logoContainer} />
 			<h2 className={styles.donut}>Подписка на кофе</h2>
-			<div className={styles.coffee} />
+			<Coffee />
 			<div className={styles.dl}>
 				<div className={styles.dot} />
 				<div className={styles.line} />
