@@ -1,5 +1,6 @@
 import styles from "./position.module.scss";
 import Image from "next/image";
+import Logo from "../svgElements/Logo/Logo";
 
 export default function Position({
   name,
@@ -22,8 +23,16 @@ export default function Position({
           />
         </div>
         <div className={styles.desc} unselectable="true">
-          <p>{description}</p>
-          <p className={styles.kpfc}>{kpfc}</p>
+          {/* <p>{description}</p>
+          <p className={styles.kpfc}>{kpfc}</p> */}
+          {(!!description || !!kpfc) ? (
+            <>
+              <p>{description}</p>
+              <p className={styles.kpfc}>{kpfc}</p>
+            </>
+          ) : (
+            <Logo width={"60%"} isCentred={true} />
+          )}
         </div>
       </div>
       <div className={styles.border} />
