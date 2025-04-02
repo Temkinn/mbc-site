@@ -4,7 +4,7 @@
     align-items: center;
 	justify-content: center;
 	gap: 100px;
-	background-image: url("./../../../public/welcome2_background.jpg");
+	background-image: url("./../../../public/welcome_background.jpg");
 }
 
 .video1 {

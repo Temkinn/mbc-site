@@ -18,14 +18,15 @@ export default function Welcome() {
         <h2 className={styles.subtitle}>Кофейня на каждый день</h2>
       </div>
       <nav className={styles.buttonContainer}>
+        {/* переделать divы в buttonы */}
         <div onClick={() => goTo("menu")} className={styles.button1}>
           Наше меню
         </div>
-        <div onClick={() => goTo("adress")} className={styles.button2}>
-          Где мы?
-        </div>
-        <div onClick={() => goTo("subscribe")} className={styles.button3}>
+        <div onClick={() => goTo("subscribe")} className={styles.button2}>
           Лояльность
+        </div>
+        <div onClick={() => goTo("adress")} className={styles.button3}>
+          Где мы?
         </div>
       </nav>
     </div>

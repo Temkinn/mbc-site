@@ -18,12 +18,10 @@
 }
 
 .title {
-	font-family: var(--montserrat);
 	font-weight: 700;
     color: #ffffff;
 }
 .subtitle {
-	font-family: var(--montserrat);
 	font-weight: 600;
     color: #FFD014;
 }
