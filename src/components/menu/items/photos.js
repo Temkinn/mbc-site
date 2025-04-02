@@ -45,7 +45,7 @@ import tea_mint from "./photos/tea/tea_mint.jpg";
 import obl_tea from "./photos/tea/obl_tea.jpg";
 import obl_baunty from "./photos/tea/obl_baunty.jpg";
 import imb_el from "./photos/tea/imb_el.jpg";
-import aloe from "./photos/tea/aloe1.jpg";
+import aloe from "./photos/tea/aloe.jpg";
 import leaves from "./photos/tea/leaves.jpg";
 
 //breakfask
