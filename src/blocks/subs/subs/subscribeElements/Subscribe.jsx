@@ -1,8 +1,8 @@
 import Link from "next/link";
 import styles from "./styles.module.scss";
-import Filter from "@/components/svgElements/waysToCook/Filter";
-import Mix from "@/components/svgElements/waysToCook/Mix";
-import Espresso from "@/components/svgElements/waysToCook/Espresso";
+import Filter from "@/blocks/svgElements/waysToCook/Filter";
+import Mix from "@/blocks/svgElements/waysToCook/Mix";
+import Espresso from "@/blocks/svgElements/waysToCook/Espresso";
 import Drip from "../../../svgElements/waysToCook/Drip";
 
 export default function Subscribe({

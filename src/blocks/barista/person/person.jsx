@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 import Image from 'next/image'
-import Instagram from '@/components/svgElements/icons/Instagram'
+import Instagram from '@/blocks/svgElements/icons/Instagram'
 import Link from 'next/link'
 
 export default function Person({name, photo, link}){

@@ -1,6 +1,6 @@
 import styles from './introstyles.module.css'
 
-import Coffee from '@/components/svgElements/coffee/Coffee'
+import Coffee from '@/blocks/svgElements/coffee/Coffee'
 
 export default function SubsIntro(){
 	return(

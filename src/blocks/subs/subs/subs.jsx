@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 import Link from "next/link";
 
-import Subscribe from "@/components/subs/subs/subscribeElements/Subscribe";
+import Subscribe from "@/blocks/subs/subs/subscribeElements/Subscribe";
 
 const monthes = [
   "ЯНВАРЬ",

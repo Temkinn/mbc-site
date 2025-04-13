@@ -1,24 +1,24 @@
 "use client"
 import styles from "./page.module.css";
 
-import Parallax from "@/components/parallax/parallax";
-import Welcome from '@/components/welcome/welcome'
-import About from "@/components/about/about"
-import Slider from "@/components/slider/slider";
-import Menu from "@/components/menu/menu";
+import Parallax from "@/blocks/parallax/parallax";
+import Welcome from '@/blocks/welcome/welcome'
+import About from "@/blocks/about/about"
+import Slider from "@/blocks/slider/slider";
+import Menu from "@/blocks/menu/menu";
 
-import Navigation from "@/components/subs/navigation/navigation";
-import SubsIntro from "@/components/subs/intro/intro";
-import SubsWhy from "@/components/subs/why/why";
-import Advantages from "@/components/subs/advantages/advantages";
-import SubsChoice from "@/components/subs/choice/choice";
-import Subs from "@/components/subs/subs/subs";
-import Loyalty from "@/components/subs/loyalty/Loyalty";
+import Navigation from "@/blocks/subs/navigation/navigation";
+import SubsIntro from "@/blocks/subs/intro/intro";
+import SubsWhy from "@/blocks/subs/why/why";
+import Advantages from "@/blocks/subs/advantages/advantages";
+import SubsChoice from "@/blocks/subs/choice/choice";
+import Subs from "@/blocks/subs/subs/subs";
+import Loyalty from "@/blocks/subs/loyalty/Loyalty";
 
-import Barista from "@/components/barista/barista";
-import Videos from "@/components/videos/videos";
-import Partners from "@/components/partners/partners";
-import Footer from "@/components/footer/footer";
+import Barista from "@/blocks/barista/barista";
+import Videos from "@/blocks/videos/videos";
+import Partners from "@/blocks/partners/partners";
+import Footer from "@/blocks/footer/footer";
 
 
 export default function Home() {

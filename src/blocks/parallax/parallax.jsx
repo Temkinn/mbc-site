@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
+import UpArrow from "../svgElements/arrows/UpArrow";
 import HeadPhones from "../svgElements/icons/HeadPhones";
 import Viber from "../svgElements/icons/Viber";
 import Gmail from "../svgElements/icons/Gmail";
@@ -25,9 +26,9 @@ export default function Parallax() {
         className={styles.parallax}
       />
       <button onClick={goToTop} className={styles.up}>
-        <Image src={require("./arrow.png")} alt="up" fill />
+        <UpArrow />
       </button>
-      <div className={styles.contacts}>
+      <aside className={styles.contacts}>
         <Link
           target="_blank"
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -63,7 +64,7 @@ export default function Parallax() {
         <div className={styles.main}>
           <HeadPhones size={30} />
         </div>
-      </div>
+      </aside>
     </>
   );
 }

@@ -1,7 +1,6 @@
 import styles from "./styles.module.css";
 import Position from "./position.jsx";
 import items from "./items/items";
-import Link from "next/link";
 
 export default function Menu() {
   const goToUnit = (name) => {
@@ -11,54 +10,39 @@ export default function Menu() {
     }
   };
 
+  //Units to components
+
   return (
-    <div id="menu" className={styles.main}>
+    <section id="menu" className={styles.main}>
       <h2 className={styles.title}>Наше Меню</h2>
       <nav className={styles.links}>
         <div className={styles.up}>
-          <div className={styles.linkContainer}>
-            <button onClick={() => goToUnit("black")} className={styles.link}>
-              Black
-            </button>
-          </div>
-          <div className={styles.linkContainer}>
-            <button onClick={() => goToUnit("milk")} className={styles.link}>
-              Milk
-            </button>
-          </div>
-          <div className={styles.linkContainer}>
-            <button onClick={() => goToUnit("other")} className={styles.link}>
-              other
-            </button>
-          </div>
-          <div className={styles.linkContainer}>
-            <button onClick={() => goToUnit("special")} className={styles.link}>
-              special
-            </button>
-          </div>
+          <button onClick={() => goToUnit("black")} className={styles.link}>
+            Black
+          </button>
+          <button onClick={() => goToUnit("milk")} className={styles.link}>
+            Milk
+          </button>
+          <button onClick={() => goToUnit("other")} className={styles.link}>
+            other
+          </button>
+          <button onClick={() => goToUnit("special")} className={styles.link}>
+            special
+          </button>
         </div>
         <div className={styles.down}>
-          <div className={styles.linkContainer}>
-            <button onClick={() => goToUnit("tea")} className={styles.link}>
-              tea
-            </button>
-          </div>
-          <div className={styles.linkContainer}>
-            <button
-              onClick={() => goToUnit("breakfast")}
-              className={styles.link}
-            >
-              завтраки
-            </button>
-          </div>
-          <div className={styles.linkContainer}>
-            <button onClick={() => goToUnit("sweet")} className={styles.link}>
-              сладкое
-            </button>
-          </div>
+          <button onClick={() => goToUnit("tea")} className={styles.link}>
+            tea
+          </button>
+          <button onClick={() => goToUnit("breakfast")} className={styles.link}>
+            завтраки
+          </button>
+          <button onClick={() => goToUnit("sweet")} className={styles.link}>
+            сладкое
+          </button>
         </div>
       </nav>
-      <div className={styles.menu}>
+      <main className={styles.menu}>
         <div className={styles.unit}>
           <button
             onClick={() => goToUnit("menu")}
@@ -236,7 +220,7 @@ export default function Menu() {
             })}
           </div>
         </div>
-      </div>
-    </div>
+      </main>
+    </section>
   );
 }
