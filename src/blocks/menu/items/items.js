@@ -502,7 +502,7 @@ const items = {
       price: "6,5",
       description: "Мягкая и воздушная сдобая булочка с корицей и сахаром.",
       photo: photos.sweet.swed_cinnamon,
-      kpfc: "",
+      kpfc: "КБЖУ: 400/8,4/6,4/39",
     },
     {
       name: "Шведская булка с маком",
@@ -510,7 +510,7 @@ const items = {
       price: "6,5",
       description: "Сдобная воздушная булочка с маковой начинкой.",
       photo: photos.sweet.swed_poppy,
-      kpfc: "",
+      kpfc: "КБЖУ: 550/8,8/22,3/77,8",
     },
   ],
 };

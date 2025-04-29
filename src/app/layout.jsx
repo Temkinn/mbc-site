@@ -1,5 +1,6 @@
 import "./globals.css"
 import { Montserrat_Alternates } from "next/font/google"
+import { Analytics } from "@vercel/analytics/react";
 
 export const montserratAlternates = Montserrat_Alternates({
   subsets: ["cyrillic", "latin-ext"],
@@ -50,6 +51,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={montserratAlternates.variable}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
