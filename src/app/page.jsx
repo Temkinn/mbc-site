@@ -1,5 +1,4 @@
 "use client"
-import styles from "./page.module.css";
 
 import Parallax from "@/blocks/parallax/parallax";
 import Welcome from '@/blocks/welcome/welcome'
@@ -24,7 +23,7 @@ import Footer from "@/blocks/footer/footer";
 export default function Home() {
 
   return (
-    <div className={styles.window}>
+    <>
       <Parallax />
       <Welcome />
       <About />
@@ -43,6 +42,6 @@ export default function Home() {
       <Videos />
       <Partners />
       <Footer />
-    </div>
+    </>
   );
 }

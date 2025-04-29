@@ -27,9 +27,9 @@ import matcha_orange from "./photos/other/matcha_orange.jpg";
 import matcha_raf from "./photos/other/matcha_raf.jpg";
 import matcha_latte from "./photos/other/matcha_latte.jpg";
 import glintvein_ba from "./photos/other/glintvein_ba.jpg";
-import cold_bru from "./photos/other/cold_bru.jpg"
-import matcha_bumble from "./photos/other/matcha_bumble.jpg"
-import orange_bumble from "./photos/other/orange_bumble.jpg"
+import cold_bru from "./photos/other/cold_bru.jpg";
+import matcha_bumble from "./photos/other/matcha_bumble.jpg";
+import orange_bumble from "./photos/other/orange_bumble.jpg";
 
 //special
 import asian_tea from "./photos/special/asian_tea.jpg";
@@ -56,12 +56,16 @@ import croissant_fund from "./photos/breakfast/croissant_fund.jpg";
 import croissant_redfish from "./photos/breakfast/croissant_redfish.jpg";
 import vanil_sir from "./photos/breakfast/vanil_sir.jpg";
 import cheese_sir from "./photos/breakfast/cheese_sir.jpg";
+import sandwich from "./photos/breakfast/sandwich.jpg";
 
 //sweet
 import banana_keks from "./photos/sweet/banana_keks.jpg";
 import limon_keks from "./photos/sweet/limon_keks.jpg";
 import salt_iris from "./photos/sweet/salt_iris.jpg";
 import choco_iris from "./photos/sweet/choco_iris.jpg";
+import swed_poppy from "./photos/sweet/swed_poppy.jpg";
+import swed_cinnamon from "./photos/sweet/swed_cinnamon.jpg";
+import zapekanka from "./photos/sweet/zapekanka.jpg";
 
 const photos = {
   black: {
@@ -117,17 +121,21 @@ const photos = {
   breakfast: {
     croissant_v: croissant_v,
     croissant_mindal: croissant_mindal,
-    croissant_chick: croissant_chick,
+    croissant_chick,
     croissant_fund: croissant_fund,
     croissant_redfish: croissant_redfish,
     vanil_sir: vanil_sir,
-    cheese_sir: cheese_sir,
+    cheese_sir,
+    sandwich,
   },
   sweet: {
     banana_keks: banana_keks,
     limon_keks: limon_keks,
     salt_iris: salt_iris,
     choco_iris: choco_iris,
+    zapekanka,
+    swed_cinnamon,
+    swed_poppy,
   },
 };
 

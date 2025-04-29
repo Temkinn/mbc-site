@@ -1,11 +1,8 @@
 * {
-	margin: 0;
-	padding: 0;
-	font-family: var(--montserrat);
+  margin: 0;
+  padding: 0;
+  font-family: var(--montserrat);
 }
-html {
-	scroll-behavior: smooth;
-}
-body{
-	overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }

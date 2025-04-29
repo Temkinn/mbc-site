@@ -23,8 +23,6 @@ export default function Position({
           />
         </div>
         <div className={styles.desc} unselectable="true">
-          {/* <p>{description}</p>
-          <p className={styles.kpfc}>{kpfc}</p> */}
           {(!!description || !!kpfc) ? (
             <>
               <p>{description}</p>

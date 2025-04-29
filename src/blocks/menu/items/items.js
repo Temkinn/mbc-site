@@ -234,8 +234,7 @@ const items = {
       name: "Бамбл-апельсин",
       g: "350 мл",
       price: "10",
-      description:
-        "",
+      description: "",
       photo: photos.other.orange_bumble,
       kpfc: "",
     },
@@ -247,7 +246,7 @@ const items = {
         "Летний Хит с матчей! Готовим из свежевыжатого сока, спелого апельсина, добавляя шот церемониальной матчи.",
       photo: photos.other.matcha_bumble,
       kpfc: "",
-    },    
+    },
   ],
 
   special: [
@@ -425,6 +424,15 @@ const items = {
       photo: photos.breakfast.croissant_chick,
       kpfc: "КБЖУ: 371/34.3/24.4/2.8",
     },
+    {
+      name: "Сэндвич с тунцом",
+      g: "250 г",
+      price: "15",
+      description:
+        "Тунец в сочетании с творожным сыром, соусом хойсин и лимном, дополненным яйцом, свежим огурцом и хрустящим салатом айсберг.Все это на подушке из воздушной чиабатты.",
+      photo: photos.breakfast.sandwich,
+      kpfc: "",
+    },
     // {
     //   name: "Круассан с фундуком",
     //   g: "105 г",
@@ -442,6 +450,15 @@ const items = {
     //   photo: photos.breakfast.croissant_mindal,
     //   kpfc: "",
     // },
+    {
+      name: "Творожная запеканка",
+      g: "120 + 40 г",
+      price: "12",
+      description:
+        "Нежная и воздушная запеканка из творога с сезонным джемом на выбор. Любимый вариант завтрака для больших и маленьких.",
+      photo: photos.sweet.zapekanka,
+      kpfc: "",
+    },
   ],
 
   sweet: [
@@ -478,6 +495,22 @@ const items = {
       description: "Шоколадный ирис, идеальное дополнение к твоему напитку.",
       photo: photos.sweet.choco_iris,
       kpfc: "КБЖУ: 94.25/0.65/4.5/12",
+    },
+    {
+      name: "Шведская булка с корицей",
+      g: "110 г",
+      price: "6,5",
+      description: "Мягкая и воздушная сдобая булочка с корицей и сахаром.",
+      photo: photos.sweet.swed_cinnamon,
+      kpfc: "",
+    },
+    {
+      name: "Шведская булка с маком",
+      g: "110 г",
+      price: "6,5",
+      description: "Сдобная воздушная булочка с маковой начинкой.",
+      photo: photos.sweet.swed_poppy,
+      kpfc: "",
     },
   ],
 };
