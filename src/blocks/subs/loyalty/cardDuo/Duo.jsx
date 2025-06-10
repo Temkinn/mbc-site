@@ -5,10 +5,10 @@ export default function Duo({ front, back, alt}) {
   return (
     <div className={styles.container}>
       <div className={styles.front}>
-        <Image src={front} alt={alt} draggable="false" placeholder="blur" fill />
+        <Image src={front} alt={alt} draggable="false" loading="lazy" placeholder="blur" fill />
       </div>
       <div className={styles.back}>
-        <Image src={back} alt={alt} draggable="false" placeholder="blur" fill />
+        <Image src={back} alt={alt} draggable="false" loading="lazy" placeholder="blur" fill />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ export default function Fact({ number, title, description, icon }) {
   return (
 	<div className={styles.container}>
 		<div className={styles.div}>
-			<Image src={icon} alt={title} style={{
+			<Image src={icon} alt={title} loading='lazy' style={{
 				width: '100%',
 				height: '100%'
 			}} />
