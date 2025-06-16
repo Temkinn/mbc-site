@@ -20,7 +20,6 @@ const Footer = dynamic(() => import("@/blocks/footer/footer"));
 
 
 export default function Home() {
-
   return (
     <>
       <Parallax />
