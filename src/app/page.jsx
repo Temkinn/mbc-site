@@ -1,23 +1,22 @@
-"use client"
-
+import dynamic from "next/dynamic";
 import Parallax from "@/blocks/parallax/parallax";
 import Welcome from '@/blocks/welcome/welcome'
-import About from "@/blocks/about/about"
-import Slider from "@/blocks/slider/slider";
-import Menu from "@/blocks/menu/menu";
+const About = dynamic(() => import("@/blocks/about/about"));
+const Slider = dynamic(() => import("@/blocks/slider/slider"));
+const Menu = dynamic(() => import("@/blocks/menu/menu"));
 
-import Navigation from "@/blocks/subs/navigation/navigation";
-import SubsIntro from "@/blocks/subs/intro/intro";
-import SubsWhy from "@/blocks/subs/why/why";
-import Advantages from "@/blocks/subs/advantages/advantages";
-import SubsChoice from "@/blocks/subs/choice/choice";
-import Subs from "@/blocks/subs/subs/subs";
-import Loyalty from "@/blocks/subs/loyalty/Loyalty";
+const Navigation = dynamic(() => import("@/blocks/subs/navigation/navigation"));
+const SubsIntro = dynamic(() => import("@/blocks/subs/intro/intro"));
+const SubsWhy = dynamic(() => import("@/blocks/subs/why/why"));
+// import Advantages from "@/blocks/subs/advantages/advantages";
+const SubsChoice = dynamic(() => import("@/blocks/subs/choice/choice"));
+const Subs = dynamic(() => import("@/blocks/subs/subs/subs"));
+const Loyalty = dynamic(() => import("@/blocks/subs/loyalty/loyalty"));
 
-import Barista from "@/blocks/barista/barista";
-import Videos from "@/blocks/videos/videos";
-import Partners from "@/blocks/partners/partners";
-import Footer from "@/blocks/footer/footer";
+const Barista = dynamic(() => import("@/blocks/barista/barista"));
+const Videos = dynamic(() => import("@/blocks/videos/videos"));
+const Partners = dynamic(() => import("@/blocks/partners/partners"));
+const Footer = dynamic(() => import("@/blocks/footer/footer"));
 
 
 export default function Home() {
