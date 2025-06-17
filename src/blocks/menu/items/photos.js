@@ -5,6 +5,7 @@ import classic from "./photos/black/classic.jpg";
 import aeropress from "./photos/black/aeropress.jpg";
 import cherry from "./photos/black/cherry.jpg";
 import espresso from "./photos/black/espresso.jpg";
+import avangespresso from "./photos/black/avangespresso.jpg";
 
 // milk
 import flat_white from "./photos/milk/flat_white.jpg";
@@ -38,6 +39,13 @@ import matcha_sakura from "./photos/special/matcha_sakura.jpg";
 import mint_berry from "./photos/special/mint_berry.jpg";
 import spanish_latte from "./photos/special/spanish_latte.jpg";
 import sun_aloe from "./photos/special/sun_aloe.jpg";
+import lim_abrpopcorn from "./photos/special/lim_abrpopcorn.jpg";
+import lim_ancocs from "./photos/special/lim_ancocs.jpg";
+import lim_malmt from "./photos/special/lim_malmt.jpg";
+import lim_mangmar from "./photos/special/lim_mangmar.jpg";
+import lim_zitr from "./photos/special/lim_zitr.jpg";
+import vanil_moroz from "./photos/special/vanil_moroz.jpg";
+import ice_lttcar from "./photos/special/ice_lttcar.jpg";
 
 // tea
 import raspb from "./photos/tea/raspb.jpg";
@@ -57,6 +65,8 @@ import croissant_redfish from "./photos/breakfast/croissant_redfish.jpg";
 import vanil_sir from "./photos/breakfast/vanil_sir.jpg";
 import cheese_sir from "./photos/breakfast/cheese_sir.jpg";
 import sandwich from "./photos/breakfast/sandwich.jpg";
+import icecreame from "./photos/breakfast/icecreame.jpg";
+import snd_zipl from "./photos/breakfast/snd_zipl.jpg";
 
 //sweet
 import banana_keks from "./photos/sweet/banana_keks.jpg";
@@ -75,6 +85,7 @@ const photos = {
     aeropress: aeropress,
     cherry: cherry,
     espresso: espresso,
+    avangespresso: avangespresso,
   },
   milk: {
     flat_white: flat_white,
@@ -108,6 +119,13 @@ const photos = {
     mint_berry: mint_berry,
     spanish_latte: spanish_latte,
     sun_aloe: sun_aloe,
+    ice_lttcar: ice_lttcar,
+    lim_abrpopcorn: lim_abrpopcorn,
+    lim_ancocs: lim_ancocs,
+    lim_malmt: lim_malmt,
+    lim_mangmar: lim_mangmar,
+    lim_zitr: lim_zitr,
+    vanil_moroz: vanil_moroz,
   },
   tea: {
     raspb: raspb,
@@ -127,6 +145,8 @@ const photos = {
     vanil_sir: vanil_sir,
     cheese_sir,
     sandwich,
+    icecreame: icecreame,
+    snd_zipl: snd_zipl,
   },
   sweet: {
     banana_keks: banana_keks,
