@@ -10,6 +10,7 @@ const SubsIntro = dynamic(() => import("@/blocks/subs/intro/intro"));
 const SubsWhy = dynamic(() => import("@/blocks/subs/why/why"));
 // import Advantages from "@/blocks/subs/advantages/advantages";
 const SubsChoice = dynamic(() => import("@/blocks/subs/choice/choice"));
+//ucytyfdtrd
 const Subs = dynamic(() => import("@/blocks/subs/subs/subs"));
 const Loyalty = dynamic(() => import("@/blocks/subs/loyalty/Loyalty"));
 
