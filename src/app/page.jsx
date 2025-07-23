@@ -10,11 +10,10 @@ const SubsIntro = dynamic(() => import("@/blocks/subs/intro/intro"));
 const SubsWhy = dynamic(() => import("@/blocks/subs/why/why"));
 // import Advantages from "@/blocks/subs/advantages/advantages";
 const SubsChoice = dynamic(() => import("@/blocks/subs/choice/choice"));
-//ucytyfdtrd
 const Subs = dynamic(() => import("@/blocks/subs/subs/subs"));
 const Loyalty = dynamic(() => import("@/blocks/subs/loyalty/Loyalty"));
 
-const Barista = dynamic(() => import("@/blocks/barista/barista"));
+// const Barista = dynamic(() => import("@/blocks/barista/barista"));
 const Videos = dynamic(() => import("@/blocks/videos/videos"));
 const Partners = dynamic(() => import("@/blocks/partners/partners"));
 const Footer = dynamic(() => import("@/blocks/footer/footer"));
@@ -37,7 +36,7 @@ export default function Home() {
       <Subs />
       <Loyalty />
 
-      <Barista />
+      {/* <Barista /> */}
       <Videos />
       <Partners />
       <Footer />
