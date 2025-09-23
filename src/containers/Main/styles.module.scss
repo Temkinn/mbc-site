@@ -1,0 +1,150 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  filter: contrast(1.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 8vw;
+    width: 80vw;
+    display: flex;
+    gap: 35px;
+
+    a {
+      display: block;
+      background-color: #000;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 14px;
+      color: #ffffff;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s;
+      width: 15vw;
+      padding-block: 15px;
+      font-size: 14px;
+    }
+
+    .button1 {
+      border: 4px #ffd014 solid;
+
+      &:hover {
+        border: 4px #ffd014 solid;
+        background-color: #ffd014;
+        color: #000;
+      }
+    }
+
+    .button2 {
+      border: 4px #ffffff solid;
+      &:hover {
+        border: 4px #fff solid;
+        background-color: #fff;
+        color: #000;
+      }
+    }
+
+    .button3 {
+      border: 4px #266665 solid;
+      &:hover {
+        border: 4px #266665 solid;
+        background-color: #266665;
+        color: #000;
+      }
+    }
+    @media screen and (width < 1024px) {
+      gap: 3vw;
+      padding-left: 10vw;
+    }
+    @media screen and (width < 768px) {
+      gap: 3vw;
+      padding-left: 10vw;
+      a {
+        width: 20vw;
+        padding-block: 15px;
+        font-size: 12px;
+      }
+    }
+    @media screen and (width < 500px) {
+      max-width: 90%;
+      gap: 10px;
+      justify-content: center;
+      padding-left: 0;
+      a {
+        width: 35vw;
+        padding-block: 12px;
+        font-size: 12px;
+      }
+    }
+  }
+  @media screen and (width > 1024px) {
+    background-image: url("./../../../public/main.webp");
+    background-repeat: no-repeat;
+  }
+  @media screen and (width < 1024px) {
+    background-image: url("./../../../public/main.webp");
+    background-repeat: no-repeat;
+  }
+  @media screen and (width < 500px) {
+    background-image: url("./../../../public/main_m.webp");
+    align-items: center;
+  }
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10vh;
+  padding-top: 2vw;
+  padding-left: 8vw;
+  width: 430px;
+  h1 {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 55px;
+  }
+  h2 {
+    font-weight: 600;
+    color: #ffd014;
+    font-size: 54px;
+  }
+  @media screen and (width < 1024px) {
+    width: 45vw;
+    padding-left: 10vw;
+    h1 {
+      font-size: 55px;
+    }
+    h2 {
+      font-size: 54px;
+    }
+  }
+  @media screen and (width < 768px) {
+    width: 50vw;
+    h1 {
+      font-size: 45px;
+    }
+    h2 {
+      font-size: 44px;
+    }
+  }
+  @media screen and (width < 500px) {
+    width: 80vw;
+    padding-left: 0;
+    h1 {
+      width: 100%;
+      font-size: 34px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+  }
+}

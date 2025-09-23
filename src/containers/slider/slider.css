@@ -1,0 +1,43 @@
+.photo-slider {
+  width: 100%;
+  border-radius: 0%;
+  margin-bottom: 15vh;
+  overflow: visible !important; /* Убираем обрезку */
+  .swiper-wrapper {
+    padding-block: 20px;
+  }
+  .swiper-slide-shadow-coverflow {
+    border-radius: 10%;
+  }
+  .swiper-slide {
+    width: 30vw;
+    aspect-ratio: 0.65;
+    border-radius: 10%;
+    img {
+      border-radius: 5%;
+    }
+    @media screen and (width <= 768px) {
+      width: 35vw;
+    }
+    @media screen and (width <= 480px) {
+      width: 70vw;
+    }
+    div {
+      opacity: 80%;
+    }
+  }
+}
+
+.swiper-slide img,
+.swiper-slide-visible img,
+.swiper-slide-fully-visible img,
+.swiper-slide-next img {
+	border-radius: 50px;
+	filter: grayscale(80%);
+	transition: filter .4s ease-in-out;
+}
+
+.swiper-slide-active img {
+    filter: grayscale(0%);
+}
+
