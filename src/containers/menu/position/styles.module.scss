@@ -1,8 +1,8 @@
 .item {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	aspect-ratio: 7/10;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 10/7;
 }
 
 $border-radius: 20px;
@@ -11,158 +11,168 @@ $transformation: translate(var(--x), -30px);
 $shadow: var(--x-shadow) 15px 10px 0px rgba(0, 0, 0, 0.3);
 
 .container {
-	height: 70%; aspect-ratio: 1/1;
-	position: relative;
-	display: block;
-	transition: all .4s ease-in-out;
-	border-radius: $border-radius;
+  width: 100%;
+  aspect-ratio: 1/1;
+  position: relative;
+  display: block;
+  transition: all 0.4s ease-in-out;
+  border-radius: $border-radius;
+  overflow: hidden;
 
+  &:active {
+    .desc {
+      display: flex;
+      opacity: 1;
+    }
+    .photo {
+      display: none;
+    }
+    transform: $transformation;
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+  }
 
-	&:active {
-		.desc {
-            display: flex;
-			opacity: 1;
-        }
-		.photo {
-			display: none;
-        }
-		transform: $transformation;
-		-webkit-box-shadow: $shadow;
-		-moz-box-shadow: $shadow;
-		box-shadow: $shadow;
-	}
+  @media (hover: hover) {
+    &:hover {
+      .desc {
+        display: flex;
+        opacity: 1;
+      }
 
-	@media (hover: hover) {
-		&:hover {
-			.desc {
-				display: flex;
-				opacity: 1;
-			}
-		
-			.photo {
-				display: none;
-			}
-		
-			transform: $transformation;
-			-webkit-box-shadow: $shadow;
-			-moz-box-shadow: $shadow;
-			box-shadow: $shadow;
-		}
-	}
+      .photo {
+        display: none;
+      }
+
+      transform: $transformation;
+      -webkit-box-shadow: $shadow;
+      -moz-box-shadow: $shadow;
+      box-shadow: $shadow;
+    }
+  }
 }
 
 .border {
-	z-index: -1;
-	position: absolute;
-	height: calc(70% - 2px * 2 * 3);
-	aspect-ratio: 1/1;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	border-radius: $border-radius;
-	border: 2px $highlight-color dashed;
+  z-index: -1;
+  position: absolute;
+  width: calc(100% - 2px * 2);
+  aspect-ratio: 1/1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: $border-radius;
+  border: 2px $highlight-color dashed;
 }
 
 .photo {
-	height: 100%; aspect-ratio: 1/1;
-	position: relative;
-	border-radius: $border-radius;
+  height: 100%;
+  aspect-ratio: 1/1;
+  position: relative;
+  border-radius: $border-radius;
 
-	img {
-		border-radius: 18px;
-	}
+  img {
+    border-radius: 18px;
+  }
 }
 
 .desc {
-	opacity: 0;
-	display: none;
-	flex-direction: column;
-	justify-content: space-between;
-	align-self: center;
-	justify-self: center;
-	width: calc(100% - 2px * 2);
-	height: 100%;
-	border-radius: $border-radius;
-	border: $highlight-color 2px solid;
-	font-family: var(--montserrat);
-	background-color: #DFE4F0;
-	user-select: none;
+  opacity: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  justify-self: center;
+  width: calc(100% - 2px * 2);
+  height: calc(100% - 2px * 2);
+  border-radius: $border-radius;
+  border: $highlight-color 2px solid;
+  font-family: var(--montserrat);
+  background-color: #dfe4f0;
+  user-select: none;
 
-	p {
-		font-weight: 500;
-		padding: 12px 12px;
-	}
-	
-	.kpfc {
-		text-align: center;
-		font-weight: 600;
-		white-space: pre-line
-	}
+  p {
+    font-weight: 500;
+    padding-bottom: 12px;
+    &:first-child {
+      padding: 12px;
+    }
+  }
+
+  .kpfc {
+    text-align: center;
+    font-weight: 600;
+    white-space: pre-line;
+  }
 }
-
-
-
 
 ////////////////////////////////////////////////////
 .info {
-	display: flex;
-	flex-direction: column;
-	gap: 3px;
-	padding-left: 3px;
-	padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-left: 3px;
+  padding-top: 10px;
 
-	h2 {
-		font-size: 20px;
-		font-weight: 600;
-		text-transform: capitalize;
-	}
-	
-    p {
-        font-weight: 400;
-    }
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  p {
+    font-weight: 400;
+  }
 }
 
-
-
-
 @media screen and (width >= 1024px) {
-	.item {
-		height: 500px;
-		--x: -30px;
-		--x-shadow: 10px;
-	}
-	.desc {
-		p {
-			font-size: 18px;
-		}
-	}
+  .item {
+    width: 25vw;
+    --x: -30px;
+    --x-shadow: 10px;
+  }
+  .desc {
+    p {
+      font-size: 90%;
+    }
+  }
 }
 
 @media screen and (width < 1024px) {
-	.item {
-		height: 500px;
-		--x: -30px;
-		--x-shadow: 10px;
-	}
-	.desc {
-		p {
-			font-size: 18px;
-		}
-	}
+  .item {
+    width: 28vw;
+    --x: -30px;
+    --x-shadow: 10px;
+  }
+  .desc {
+    p {
+      font-size: 70%;
+    }
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .item {
+    width: 40vw;
+    --x: -20px;
+    --x-shadow: 10px;
+  }
+  .desc {
+    p {
+      font-size: 14px;
+    }
+  }
+}
 
 @media screen and (width <= 500px) {
-	.item {
-		height: 400px;
-		--x: 0px;
-		--x-shadow: 0px;
-	}
-	.desc {
-		p {
-			font-size: 14px;
-		}
-	}
+  .item {
+    width: 60vw;
+    --x: 0px;
+    --x-shadow: 0px;
+  }
+  .desc {
+    p {
+      font-size: 12px;
+    }
+  }
 }
-
