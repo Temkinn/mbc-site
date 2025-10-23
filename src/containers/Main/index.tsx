@@ -9,13 +9,13 @@ export default function Welcome() {
         <h2>Кофейня на каждый день</h2>
       </div>
       <nav>
-        <Link href={""} className={styles.button1}>
+        <Link href={"#menu"} className={styles.button1}>
           Наше меню
         </Link>
-        <Link href={""} className={styles.button2}>
+        <Link href={"#subscribe"} className={styles.button2}>
           Лояльность
         </Link>
-        <Link href={""} className={styles.button3}>
+        <Link href={"#adress"} className={styles.button3}>
           Где мы?
         </Link>
       </nav>
